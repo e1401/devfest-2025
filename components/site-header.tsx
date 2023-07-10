@@ -4,8 +4,9 @@ import { siteConfig } from '@/config/site';
 import { cn } from '@/lib/utils';
 
 import { ModeToggle } from '@/components/theme-toggle';
-import { Github, Twitter } from 'lucide-react';
+import { Github, Linkedin, Ticket, Twitter } from 'lucide-react';
 import Navbar from './navbar';
+import { Button } from './ui/button';
 
 export function SiteHeader() {
   return (
@@ -14,27 +15,10 @@ export function SiteHeader() {
         <Navbar />
         <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
           <div className="w-full flex-1 md:w-auto md:flex-none"></div>
-          <nav className="flex items-center">
-            <Link
-              href={siteConfig.links.github}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className={cn('w-9 px-0')}>
-                <Github className="h-4 w-4" />
-                <span className="sr-only">GitHub</span>
-              </div>
-            </Link>
-            <Link
-              href={siteConfig.links.twitter}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className={cn('w-9 px-0')}>
-                <Twitter className="h-4 w-4 fill-current" />
-                <span className="sr-only">Twitter</span>
-              </div>
-            </Link>
+          <nav className="flex items-center gap-x-2">
+            <Button disabled variant={'outline'}>
+              <Ticket className="h-4 w-4 mr-2"></Ticket>Get Tickets
+            </Button>
             <ModeToggle />
           </nav>
         </div>

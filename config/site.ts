@@ -5,6 +5,7 @@ export const siteConfig = {
   links: {
     twitter: 'https://twitter.com/gdgzagreb',
     github: 'https://github.com/GDG-Zagreb',
+    linkedIn: 'https://www.linkedin.com/company/gdgzagreb/',
   },
 };
 

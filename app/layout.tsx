@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     { media: '(prefers-color-scheme: dark)', color: 'black' },
   ],
   icons: {
-    icon: '/favicon.png',
+    icon: '/GDG.png',
   },
 };
 
@@ -41,13 +41,13 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          'flex flex-col h-screen justify-between',
+          'flex flex-col h-screen justify-between ',
           inter.className
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <SiteHeader />
-          <div className="flex-1 m-2">{children}</div>
+          <div className="flex-1">{children}</div>
           <SiteFooter />
         </ThemeProvider>
       </body>
