@@ -1,6 +1,6 @@
 import { siteConfig } from '@/config/site';
 import { cn } from '@/lib/utils';
-import { Github, Twitter, Linkedin } from 'lucide-react';
+import { Github, Twitter, Linkedin, Palmtree } from 'lucide-react';
 import Link from 'next/link';
 
 export function SiteFooter() {
@@ -35,6 +35,16 @@ export function SiteFooter() {
             <div className={cn('w-9 px-0')}>
               <Linkedin className="h-4 w-4 fill-current" />
               <span className="sr-only">LinkedIn</span>
+            </div>
+          </Link>
+          <Link
+            href={siteConfig.links.linkTree}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className={cn('w-9 px-0')}>
+              <Palmtree className="h-4 w-4 fill-current" />
+              <span className="sr-only">LinkTree</span>
             </div>
           </Link>
         </div>

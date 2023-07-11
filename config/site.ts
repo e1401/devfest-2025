@@ -6,6 +6,7 @@ export const siteConfig = {
     twitter: 'https://twitter.com/gdgzagreb',
     github: 'https://github.com/GDG-Zagreb',
     linkedIn: 'https://www.linkedin.com/company/gdgzagreb/',
+    linkTree: 'https://linktr.ee/zagrebgdg',
   },
 };
 

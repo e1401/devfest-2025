@@ -1,18 +1,22 @@
-import Link from 'next/link';
-
-import { siteConfig } from '@/config/site';
-import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 import { ModeToggle } from '@/components/theme-toggle';
-import { Github, Linkedin, Ticket, Twitter } from 'lucide-react';
-import Navbar from './navbar';
+import { Ticket } from 'lucide-react';
 import { Button } from './ui/button';
 
 export function SiteHeader() {
   return (
     <header className="supports-backdrop-blur:bg-background/60 sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur">
       <div className="container flex h-14 items-center">
-        <Navbar />
+        <div className="flex gap-x-2">
+          <Image
+            src={'/GDG.png'}
+            height={35}
+            width={35}
+            alt={'GDG logo'}
+          ></Image>
+          <div className="text-md mt-1">Google Developer Groups</div>
+        </div>
         <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
           <div className="w-full flex-1 md:w-auto md:flex-none"></div>
           <nav className="flex items-center gap-x-2">

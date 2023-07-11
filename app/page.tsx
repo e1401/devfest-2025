@@ -1,6 +1,4 @@
-'use client';
-
-export default function Example() {
+export default function MainPage() {
   return (
     <div className="container flex items-center justify-center px-4 mx-auto">
       <div className="mx-auto  sm:mt-0 sm:grid-cols-3 lg:gap-16">
