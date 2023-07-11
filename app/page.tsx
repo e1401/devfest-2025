@@ -3,11 +3,7 @@ import { DynamicCard } from '@/components/dynamic-card';
 
 export default function Example() {
   return (
-    <div
-      className="container flex items-center justify-center px-4 mx-auto bg-gradient-to-tl 
-    from-slate-200/0 via-slate-200 slate-200/0
-    dark:from-zinc-900/0 dark:via-zinc-900 dark:to-zinc-900/0"
-    >
+    <div className="container flex items-center justify-center px-4 mx-auto">
       <div className="mx-auto  sm:mt-0 sm:grid-cols-3 lg:gap-16">
         <DynamicCard>
           <div className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24  lg:pb-48  md:p-16">
