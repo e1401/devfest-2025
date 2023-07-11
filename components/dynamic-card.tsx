@@ -23,7 +23,7 @@ export const DynamicCard: React.FC<PropsWithChildren> = ({ children }) => {
   return (
     <div
       onMouseMove={onMouseMove}
-      className="overflow-hidden relative duration-700 rounded-xl dark:hover:bg-zinc-800/10 hover:bg-zinc-100/10 group md:gap-8 hover:shadow-xl h-[88vh] w-screen"
+      className="overflow-hidden relative duration-700 rounded-xl dark:hover:bg-zinc-800/10 hover:bg-zinc-100/10 group md:gap-8 hover:shadow-xl h-[80vh] w-[80vw]"
     >
       <div className="pointer-events-none">
         <div className="absolute inset-0 z-0  transition duration-1000 [mask-image:linear-gradient(black,transparent)]" />
