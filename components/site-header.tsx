@@ -22,12 +22,13 @@ export function SiteHeader() {
           <nav className="flex items-center gap-x-2">
             <Link href="https://linktr.ee/zagrebgdg">
               <Button variant={'outline'}>
-                <MessagesSquare className="h-4 w-4 mr-2"></MessagesSquare> Talk
-                to us!
+                <MessagesSquare className="h-4 w-4 lg:mr-2"></MessagesSquare>
+                <div className="hidden lg:inline">Talk to us!</div>
               </Button>
             </Link>
             <Button disabled variant={'outline'}>
-              <Ticket className="h-4 w-4 mr-2"></Ticket>Get Tickets
+              <Ticket className="h-4 w-4 lg:mr-2"></Ticket>
+              <div className="hidden lg:inline">Get Tickets</div>
             </Button>
             <ModeToggle />
           </nav>
