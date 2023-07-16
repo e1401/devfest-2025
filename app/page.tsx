@@ -7,7 +7,7 @@ export default function MainPage() {
       <div className="mx-auto  sm:mt-0 sm:grid-cols-3 lg:gap-16">
         <div className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24  lg:pb-48  md:p-16">
           <div className="z-10 flex flex-col items-center">
-            <div className="mt-[30vh] mx-40 font-medium duration-150 lg:text-5xl font-display text-xl">
+            <div className="mt-[30vh] mx-auto font-medium duration-150 lg:text-5xl font-display text-3xl">
               DEVFEST 2023
             </div>
             <div className="mt-4 mb-16 text-lg lg:text-xl text-center duration-1000  dark:group-hover:text-slate-200 group-hover:text-slate-500 flex flex-col gap-3">
