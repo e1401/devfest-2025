@@ -1,8 +1,8 @@
 import Image from 'next/image';
-
 import { ModeToggle } from '@/components/theme-toggle';
-import { Ticket } from 'lucide-react';
+import { MessagesSquare, Ticket } from 'lucide-react';
 import { Button } from './ui/button';
+import Link from 'next/link';
 
 export function SiteHeader() {
   return (
@@ -20,6 +20,12 @@ export function SiteHeader() {
         <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
           <div className="w-full flex-1 md:w-auto md:flex-none"></div>
           <nav className="flex items-center gap-x-2">
+            <Link href="https://linktr.ee/zagrebgdg">
+              <Button variant={'outline'}>
+                <MessagesSquare className="h-4 w-4 mr-2"></MessagesSquare> Talk
+                to us!
+              </Button>
+            </Link>
             <Button disabled variant={'outline'}>
               <Ticket className="h-4 w-4 mr-2"></Ticket>Get Tickets
             </Button>

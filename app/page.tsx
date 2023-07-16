@@ -11,14 +11,14 @@ export default function MainPage() {
               DEVFEST 2023
             </div>
             <div className="mt-4 mb-16 text-lg lg:text-xl text-center duration-1000  dark:group-hover:text-slate-200 group-hover:text-slate-500 flex flex-col gap-3">
-              &lt; COMING SOON &gt;
+              &lt; Zagreb, 27th October 2023 &gt;
               <Link
                 target="_blank"
                 href={
                   'https://docs.google.com/forms/d/e/1FAIpQLScrrAm6aIN9C2WPPI3Ir1xQmtXz67SOE-qhE97YarNaPFiq9w/viewform?pli=1'
                 }
               >
-                <Button>Apply to be a Speaker!</Button>
+                <Button className="mt-3">Apply to be a Speaker!</Button>
               </Link>
             </div>
           </div>
