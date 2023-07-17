@@ -20,7 +20,7 @@ export function SiteHeader() {
         <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
           <div className="w-full flex-1 md:w-auto md:flex-none"></div>
           <nav className="flex items-center gap-x-2">
-            <Link href="https://linktr.ee/zagrebgdg">
+            <Link href="https://linktr.ee/zagrebgdg"  target="_blank"> 
               <Button variant={'outline'}>
                 <MessagesSquare className="h-4 w-4 lg:mr-2"></MessagesSquare>
                 <div className="hidden lg:inline">Talk to us!</div>
