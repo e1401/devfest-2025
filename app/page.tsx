@@ -1,5 +1,6 @@
-import { Button } from '@/components/ui/button';
-import Link from 'next/link';
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { Mic, Mic2, Ticket } from "lucide-react";
 
 export default function MainPage() {
   return (
@@ -15,10 +16,22 @@ export default function MainPage() {
               <Link
                 target="_blank"
                 href={
-                  'https://docs.google.com/forms/d/e/1FAIpQLScrrAm6aIN9C2WPPI3Ir1xQmtXz67SOE-qhE97YarNaPFiq9w/viewform?pli=1'
+                  "https://docs.google.com/forms/d/e/1FAIpQLScrrAm6aIN9C2WPPI3Ir1xQmtXz67SOE-qhE97YarNaPFiq9w/viewform?pli=1"
                 }
               >
-                <Button className="mt-3">Apply to be a Speaker!</Button>
+                <Button className="mt-3 w-[220px]">
+                  <Mic2 className="h-4 w-4 lg:mr-2"></Mic2>
+                  Apply to be a Speaker!
+                </Button>
+              </Link>
+              <Link
+                href="https://www.entrio.hr/event/devfest-2023-14840"
+                target="_blank"
+              >
+                <Button className="mt-3 w-[220px]">
+                  <Ticket className="h-4 w-4 lg:mr-2"></Ticket>
+                  <div className="hidden lg:inline">Get Tickets</div>
+                </Button>
               </Link>
             </div>
           </div>
