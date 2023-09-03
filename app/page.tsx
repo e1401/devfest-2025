@@ -32,7 +32,7 @@ export default function MainPage() {
                 >
                   <Button className="mt-3 w-[190px]">
                     <Ticket className="h-4 w-4 lg:mr-2"></Ticket>
-                    <div className="hidden lg:inline">Get Tickets</div>
+                    <div>Get Tickets</div>
                   </Button>
                 </Link>
               </div>
