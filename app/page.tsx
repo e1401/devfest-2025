@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Mic2, Ticket } from "lucide-react";
-import Countdown from "react-countdown";
 
 export default function MainPage() {
   return (
