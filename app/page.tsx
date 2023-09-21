@@ -37,7 +37,7 @@ export default function MainPage() {
               </div>
             </div>
           </div>
-          <div className="container mx-auto flex flex-col gap-y-3 lg:max-w-[800px]">
+          <div className="container mx-auto flex flex-col gap-y-3">
             <div>
               🚀 Exciting News! DevFest 2023 is just around the corner, and you
               won't want to miss this tech extravaganza happening live in Zagreb
@@ -95,7 +95,7 @@ export default function MainPage() {
           <div className="p-6 border bg-background">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.4632311407963!2d15.999859577358484!3d45.801980410836315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d7403d03984b%3A0x9e5d18ec57e2bd78!2sWESPA%20Business%20%26%20Lounge!5e0!3m2!1sen!2shr!4v1693745621894!5m2!1sen!2shr"
-              width="700"
+              width="500"
               height="300"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
