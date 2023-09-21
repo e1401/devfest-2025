@@ -12,8 +12,10 @@ export default function MainPage() {
               DEVFEST 2023
             </div>
             <div className="mt-4 mb-16 text-lg lg:text-2xl text-center duration-1000  dark:group-hover:text-slate-200 group-hover:text-slate-500 flex flex-col gap-3">
-              &lt; Zagreb, 27th October 2023 &gt; <br /> @ Wespa Business and
-              Lounge
+              Zagreb, 27th October 2023 <br />
+              <Link href="https://wespa.hr/" target="_blank">
+                @ Wespa Business and Lounge
+              </Link>
               <div className="flex mx-auto">
                 <Link
                   href="https://www.entrio.hr/event/devfest-2023-14840"
@@ -72,6 +74,15 @@ export default function MainPage() {
               word, and let's make DevFest 2023 a tech-filled day to remember!
               🎉👩‍💻👨‍💻 #DevFest2023 #TechConference #ZagrebTech #GDG #GDSC
             </div>
+          </div>
+          <div className="p-6 border bg-background">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.4632311407963!2d15.999859577358484!3d45.801980410836315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d7403d03984b%3A0x9e5d18ec57e2bd78!2sWESPA%20Business%20%26%20Lounge!5e0!3m2!1sen!2shr!4v1693745621894!5m2!1sen!2shr"
+              width="700"
+              height="300"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>
