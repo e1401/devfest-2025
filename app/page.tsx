@@ -72,9 +72,18 @@ export default function MainPage() {
               <Link href={'https://www.youtube.com/watch?v=sBUrtouEDPc'}>
                 &nbsp;
                 <span className="underline text-blue-500">
-                  DevFest 2022 videos.
+                  DevFest 2022 videos
                 </span>
               </Link>
+              &nbsp;and&nbsp;
+              <Link
+                href={
+                  'https://drive.google.com/drive/u/2/folders/1k8cO3As1QwNEEjnIfHdDCrY-q04pEa6E'
+                }
+              >
+                <span className="underline text-blue-500">gallery</span>
+              </Link>
+              .
             </div>
             <div>
               Don't miss out on this opportunity to learn, network, and connect
