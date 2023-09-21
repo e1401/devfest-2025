@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { Mic2, Ticket } from 'lucide-react';
+import { Link2, LinkIcon, Mic2, Table2, Ticket } from 'lucide-react';
 
 export default function MainPage() {
   return (
@@ -14,18 +14,26 @@ export default function MainPage() {
             <div className="mt-4 mb-16 text-lg lg:text-2xl text-center duration-1000  dark:group-hover:text-slate-200 group-hover:text-slate-500 flex flex-col gap-3">
               Zagreb, 27th October 2023 <br />
               <Link href="https://wespa.hr/" target="_blank">
-                @ Wespa Business and Lounge
+                <div className="flex gap-x-2">
+                  @ WESPA Business and Lounge
+                  <LinkIcon className="mt-2 h-5 w-5" />
+                </div>
               </Link>
-              <div className="flex mx-auto">
+              <div className="flex mx-auto gap-x-2">
                 <Link
                   href="https://www.entrio.hr/event/devfest-2023-14840"
                   target="_blank"
                 >
-                  <Button className="mt-3 w-[190px]">
+                  <Button className=" w-[190px]">
                     <Ticket className="h-4 w-4 lg:mr-2"></Ticket>
                     <div>Get Tickets</div>
                   </Button>
                 </Link>
+
+                <Button disabled className="w-[190px]">
+                  <Table2 className="h-4 w-4 lg:mr-2"></Table2>
+                  <div>Check the agenda</div>
+                </Button>
               </div>
             </div>
           </div>
