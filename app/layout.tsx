@@ -41,7 +41,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          'flex flex-col h-screen justify-between bg-gradient-to-tl from-slate-200/0 via-slate-200 slate-200/0 dark:from-zinc-900/0 dark:via-zinc-900 dark:to-zinc-900/0',
+          'flex flex-col  justify-between bg-gradient-to-tl from-slate-200/0 via-slate-200 slate-200/0 dark:from-zinc-900/0 dark:via-zinc-900 dark:to-zinc-900/0',
           inter.className
         )}
       >
