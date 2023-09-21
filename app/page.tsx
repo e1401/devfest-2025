@@ -60,7 +60,10 @@ export default function MainPage() {
               details, and the exciting lineup of speakers.
               <br /> 🌟 Curious about how it went last year? Check out the
               <Link href={'https://www.youtube.com/watch?v=sBUrtouEDPc'}>
-                DevFest 2022 videos.
+                &nbsp;
+                <span className="underline text-blue-500">
+                  DevFest 2022 videos.
+                </span>
               </Link>
             </div>
             <div>
