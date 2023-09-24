@@ -29,10 +29,10 @@ export default function MainPage() {
                     <div>Get Tickets</div>
                   </Button>
                 </Link>
-                <Link href="/agenda">
+                <Link href="/speakers">
                   <Button className="w-[190px]">
                     <Table2 className="h-4 w-4 lg:mr-2"></Table2>
-                    <div>Check the agenda</div>
+                    <div>Meet the speakers</div>
                   </Button>
                 </Link>
               </div>

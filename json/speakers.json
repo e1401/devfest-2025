@@ -1,17 +1,39 @@
 {
-  "stage1": [
+  "speakers": [
     {
-      "time": "11:00",
-      "name": "Boris Martinovic",
-      "info": "Software enginneer @ Euroherc Insurance",
-      "talkName": "From Punch Cards to Predictive Coding",
-      "talkInfo": "We will go through the history of development workflow and how it could change in the near future. First, we will go through some of significant eras and advantages that were gained with incorporating new tech or processes. Afterwards, we will talk about how development workflows work now compared to before. Finally, we will be focusing on AI. More specifically, how AI could change our working and learning processes and compare this to some of more radical changes that happened before.",
-      "imgSrc": "/speaker-photos/Boris.jpg"
-    }
-  ],
-  "stage2": [
+      "time": "Web",
+      "name": "Josefine Schäfer",
+      "info": "GDE Web technologies, Developer Relations Engineer at Storyblok",
+      "talkName": "Beyond Compliance: Testing for a more Accessible Web",
+      "talkInfo": "You want to go beyond roughly meeting guidelines but actually create products that cater a large audience and their needs? To not only fulfill requirements but actually create mindful content & empathic code? Anybody working in tech has the responsibility to provide an inclusive, accessible experience. Let's dive into web accessibility best practices, testing & auditing strategies to take your project to the next level. ",
+      "imgSrc": "/speaker-photos/Josefine.png"
+    },
     {
-      "time": "11:00",
+      "time": "Web",
+      "name": "Nicolas Frizzarin",
+      "info": "GDE Web technologies, Developer Advocate and Senior Staff Engineer @ Sfeir Luxembourg",
+      "talkName": "The digital age of web hydration, understanding types of hydration for web use ",
+      "talkInfo": "Hydration is a very large concept which is quite difficult to understand and apply. In this talk, you will get to knpow what web hydration really is and the different kinds of web hydration that are applicable for different use cases.",
+      "imgSrc": "/speaker-photos/Nicolas.jpg"
+    },
+    {
+      "time": "Web",
+      "name": "Henry Lim",
+      "info": "GDE Web technologies",
+      "talkName": "Chrome DevTools LIVE LIVE LIVE",
+      "talkInfo": "Chrome DevTools is getting more and more powerful in the past few years. In this session, Henry will takes us through a tour of all the interesting, useful, as well as rarely-known features of DevTools in the form of live demo. Furthermore, he will also live demo the very first version of DevTools, DevTools behind-the-scene, and tips on contributing to DevTools.",
+      "imgSrc": "/speaker-photos/Henry.png"
+    },
+    {
+      "time": "AI / Web",
+      "name": "Balram Chavan",
+      "info": "GDE Web technologies, Architect, @ Boehringer Ingelheim",
+      "talkName": "Unleashing the Potential of AI Tools in Web Development ",
+      "talkInfo": "Embark on a journey that explores the seamless synergy of web development and cutting-edge AI capabilities. Discover how AI enhances code quality, testing precision, and offers insights into performance optimization.",
+      "imgSrc": "/speaker-photos/Balram.png"
+    },
+    {
+      "time": "AI",
       "name": "Boris Martinovic",
       "info": "Software enginneer @ Euroherc Insurance",
       "talkName": "From Punch Cards to Predictive Coding",
