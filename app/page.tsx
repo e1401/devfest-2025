@@ -29,11 +29,12 @@ export default function MainPage() {
                     <div>Get Tickets</div>
                   </Button>
                 </Link>
-
-                <Button disabled className="w-[190px]">
-                  <Table2 className="h-4 w-4 lg:mr-2"></Table2>
-                  <div>Check the agenda</div>
-                </Button>
+                <Link href="/speakers">
+                  <Button className="w-[190px]">
+                    <Table2 className="h-4 w-4 lg:mr-2"></Table2>
+                    <div>Meet the speakers</div>
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
