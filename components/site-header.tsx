@@ -16,7 +16,9 @@ export function SiteHeader() {
               width={35}
               alt={'GDG logo'}
             ></Image>
-            <div className="text-md mt-1">Google Developer Groups</div>
+            <div className="text-md mt-1 hidden lg:inline">
+              Google Developer Groups
+            </div>
           </div>
         </Link>
         <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
