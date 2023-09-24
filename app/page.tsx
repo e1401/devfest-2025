@@ -22,20 +22,20 @@ export default function MainPage() {
                   target="_blank"
                 >
                   <Button className=" w-[190px]">
-                    <Ticket className="h-4 w-4 lg:mr-2"></Ticket>
-                    <div>Get Tickets</div>
+                    <Ticket className="h-4 w-4 mr-3"></Ticket>
+                    <p>Get Tickets</p>
                   </Button>
                 </Link>
                 <Link href="/speakers">
                   <Button className="w-[190px]">
-                    <Table2 className="h-4 w-4 lg:mr-2"></Table2>
-                    <div>Meet the speakers</div>
+                    <Table2 className="h-4 w-4 mr-3"></Table2>
+                    <p>Meet the speakers</p>
                   </Button>
                 </Link>
               </div>
             </div>
           </div>
-          <div className="container flex flex-col gap-y-3">
+          <div className="container flex flex-col gap-y-3  w-full max-w-[1020px]">
             <div>
               🚀 Exciting News! DevFest 2023 is just around the corner, and you
               won't want to miss this tech extravaganza happening live in Zagreb
@@ -90,7 +90,7 @@ export default function MainPage() {
               🎉👩‍💻👨‍💻 #DevFest2023 #TechConference #ZagrebTech #GDG #GDSC
             </div>
           </div>
-          <div className="p-6 border bg-primary-foreground">
+          <div className="p-6 border bg-primary-foreground max-w-[1020px]">
             <h1 className="text-center text-4xl font-bold mb-3">Location</h1>
             <Link href="https://wespa.hr/" target="_blank">
               <h2 className="text-center mb-4 w-full text-4xl font-bold bg-gradient-to-br from-purple-800 to-yellow-700 dark:from-purple-300 dark:to-yellow-200 bg-clip-text text-transparent">
