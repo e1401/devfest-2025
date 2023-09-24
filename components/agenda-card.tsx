@@ -24,7 +24,7 @@ export default function AgendaCard(props: {
       <Accordion
         type="single"
         collapsible
-        className="w-full border p-3 rounded-lg my-3 bg-primary-foreground/20"
+        className="w-full border p-3 rounded-lg my-3 bg-primary-foreground/20 hover:bg-primary-foreground "
       >
         <AccordionItem value="item">
           <AccordionTrigger>
@@ -46,13 +46,17 @@ export default function AgendaCard(props: {
                     width={100}
                   ></Image>
                 </Suspense>
-                <div className="flex flex-col gap-3 mx-auto">
-                  <h2 className="text-2xl font-bold">{props.talk.name}</h2>
-                  <h5 className="text-sm">{props.talk.info}</h5>
+                <div className="flex flex-col gap-3 items-start">
+                  <h2 className="text-2xl font-bold text-left">
+                    {props.talk.name}
+                  </h2>
+                  <h5 className="text-left text-sm">{props.talk.info}</h5>
                 </div>
               </div>
-              <div className="flex flex-col lg:w-[35vw] gap-3">
-                <h2 className="text-2xl font-bold">{props.talk.talkName}</h2>
+              <div className="flex flex-col w-full lg:w-[35vw] gap-3 items-start">
+                <h2 className="text-2xl font-bold text-left">
+                  {props.talk.talkName}
+                </h2>
               </div>
             </div>
           </AccordionTrigger>
