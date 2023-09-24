@@ -1,6 +1,9 @@
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { Link2, LinkIcon, Mic2, Table2, Ticket } from 'lucide-react';
+import { Skeleton } from '@/components/ui/skeleton';
+import { Suspense } from 'react';
+import Image from 'next/image';
 
 export default function MainPage() {
   return (
@@ -13,12 +16,6 @@ export default function MainPage() {
             </div>
             <div className="mt-4 mb-16 text-lg lg:text-2xl text-center duration-1000  dark:group-hover:text-slate-200 group-hover:text-slate-500 flex flex-col gap-3">
               Zagreb, 27th October 2023 <br />
-              <Link href="https://wespa.hr/" target="_blank">
-                <div className="flex gap-x-2">
-                  @ WESPA Business and Lounge
-                  <LinkIcon className="mt-2 h-5 w-5" />
-                </div>
-              </Link>
               <div className="flex mx-auto gap-x-2">
                 <Link
                   href="https://www.entrio.hr/event/devfest-2023-14840"
@@ -93,14 +90,30 @@ export default function MainPage() {
               🎉👩‍💻👨‍💻 #DevFest2023 #TechConference #ZagrebTech #GDG #GDSC
             </div>
           </div>
-          <div className="p-2 border bg-background">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.4632311407963!2d15.999859577358484!3d45.801980410836315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d7403d03984b%3A0x9e5d18ec57e2bd78!2sWESPA%20Business%20%26%20Lounge!5e0!3m2!1sen!2shr!4v1693745621894!5m2!1sen!2shr"
-              width="500"
-              height="300"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+          <div className="p-6 border bg-primary-foreground">
+            <h1 className="text-center text-4xl font-bold mb-3">Location</h1>
+            <Link href="https://wespa.hr/" target="_blank">
+              <h2 className="text-center mb-4 w-full text-4xl font-bold bg-gradient-to-br from-purple-800 to-yellow-700 dark:from-purple-300 dark:to-yellow-200 bg-clip-text text-transparent">
+                WESPA Business and Lounge, Zagreb
+              </h2>
+            </Link>
+            <div className="flex flex-col lg:flex-row gap-5 justify-between">
+              <Image
+                className=""
+                src={'/wespa-lounge.jpg'}
+                alt={'Wespa spaces lounge'}
+                height={300}
+                width={449}
+              ></Image>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.4632311407963!2d15.999859577358484!3d45.801980410836315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d7403d03984b%3A0x9e5d18ec57e2bd78!2sWESPA%20Business%20%26%20Lounge!5e0!3m2!1sen!2shr!4v1693745621894!5m2!1sen!2shr"
+                width="450"
+                height="300"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
