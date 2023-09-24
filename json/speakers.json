@@ -39,6 +39,14 @@
       "talkName": "From Punch Cards to Predictive Coding",
       "talkInfo": "We will go through the history of development workflow and how it could change in the near future. First, we will go through some of significant eras and advantages that were gained with incorporating new tech or processes. Afterwards, we will talk about how development workflows work now compared to before. Finally, we will be focusing on AI. More specifically, how AI could change our working and learning processes and compare this to some of more radical changes that happened before.",
       "imgSrc": "/speaker-photos/Boris.jpg"
+    },
+    {
+      "time": "Cloud",
+      "name": "Artem Nikulchenko",
+      "info": "Chief software architect @ Teamwork Commerce",
+      "talkName": "Hidden Gems of Bigquery",
+      "talkInfo": "BigQuery is amazing. It is one of my favorite tools within Google Cloud. Luckily, it looks like Google feels the same and, to the joy of BigQuery fans, keeps adding new features there. No matter how long I have been working with BigQuery, there is always something new I discover once in a while. In this talk, we will start by talking about BigQuery in general and its internal architecture, then talk about the ELT process and tools around BigQuery to facilitate this process, and then move to highlight several amazing BQ features, including three ways to do change tracking in BigQuery, machine learning, indexing, and transactions.",
+      "imgSrc": "/speaker-photos/Artem.jpeg"
     }
   ]
 }
