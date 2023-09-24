@@ -60,8 +60,8 @@
       "time": "Cloud",
       "name": "Artem Nikulchenko",
       "info": "Chief software architect @ Teamwork Commerce",
-      "talkName": "Hidden Gems of Bigquery",
-      "talkInfo": "BigQuery is amazing. It is one of my favorite tools within Google Cloud. Luckily, it looks like Google feels the same and, to the joy of BigQuery fans, keeps adding new features there. No matter how long I have been working with BigQuery, there is always something new I discover once in a while. In this talk, we will start by talking about BigQuery in general and its internal architecture, then talk about the ELT process and tools around BigQuery to facilitate this process, and then move to highlight several amazing BQ features, including three ways to do change tracking in BigQuery, machine learning, indexing, and transactions.",
+      "talkName": "Hidden Gems of BigQuery",
+      "talkInfo": "BigQuery is amazing It is one of my favorite tools within Google Cloud. Luckily, it looks like Google feels the same and, to the joy of BigQuery fans, keeps adding new features there. No matter how long I have been working with BigQuery, there is always something new I discover once in a while. In this talk, we will start by talking about BigQuery in general and its internal architecture, then talk about the ELT process and tools around BigQuery to facilitate this process, and then move to highlight several amazing BQ features, including three ways to do change tracking in BigQuery, machine learning, indexing, and transactions.",
       "imgSrc": "/speaker-photos/Artem.jpeg"
     }
   ]

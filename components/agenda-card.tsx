@@ -32,7 +32,7 @@ export default function AgendaCard(props: {
               <h1 className="text-3xl font-semibold text-left lg:text-center w-[150px] hidden lg:block">
                 {props.talk.time}
               </h1>
-              <div className="flex items-center gap-x-3 w-[450px]">
+              <div className="flex items-center gap-x-3 w-[400px]">
                 <Suspense
                   fallback={
                     <Skeleton className="w-[100px] h-[100px] rounded-full" />
@@ -50,11 +50,13 @@ export default function AgendaCard(props: {
                   <h2 className="text-2xl font-bold text-left">
                     {props.talk.name}
                   </h2>
-                  <h5 className="text-left text-sm">{props.talk.info}</h5>
+                  <h5 className="text-left text-sm text-muted-foreground">
+                    {props.talk.info}
+                  </h5>
                 </div>
               </div>
               <div className="flex flex-col w-full lg:w-[35vw] gap-3 items-start">
-                <h2 className="text-2xl font-bold text-left">
+                <h2 className="text-xl font-bold text-left">
                   {props.talk.talkName}
                 </h2>
               </div>
