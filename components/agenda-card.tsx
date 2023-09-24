@@ -16,7 +16,9 @@ export default function AgendaCard(props: {
     <>
       <Separator className="my-4" />
       <div className="flex flex-col lg:flex-row items-center lg:gap-x-12 gap-y-3 ">
-        <h1 className="text-3xl font-semibold w-[100px]">{props.talk.time}</h1>
+        <h1 className="text-3xl font-semibold w-[150px] text-center">
+          {props.talk.time}
+        </h1>
         <div className="flex items-center gap-x-3 w-[350px]">
           <Image
             className="rounded-full"
