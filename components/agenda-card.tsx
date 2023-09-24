@@ -30,7 +30,7 @@ export default function AgendaCard(props: {
             <h5 className="text-sm">{props.talk.info}</h5>
           </div>
         </div>
-        <div className="flex lg:flex-col max-w-[50vw] gap-3">
+        <div className="flex flex-col max-w-[50vw] gap-3">
           <h2 className="text-2xl font-bold">{props.talk.talkName}</h2>
           <h5 className="text-sm">{props.talk.talkInfo}</h5>
         </div>
