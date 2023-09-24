@@ -24,7 +24,7 @@ export default function AgendaCard(props: {
       <Accordion
         type="single"
         collapsible
-        className="max-w-[80vw] lg:w-full border p-3 rounded-lg my-3 bg-primary-foreground/20 hover:bg-primary-foreground "
+        className="max-w-[90vw] lg:w-full border p-3 rounded-lg my-3 bg-primary-foreground/20 hover:bg-primary-foreground "
       >
         <AccordionItem value="item">
           <AccordionTrigger>
