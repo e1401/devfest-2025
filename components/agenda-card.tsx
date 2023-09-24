@@ -29,10 +29,10 @@ export default function AgendaCard(props: {
         <AccordionItem value="item">
           <AccordionTrigger>
             <div className="flex flex-col lg:flex-row items-center lg:gap-x-12 gap-y-3 w-full">
-              <h1 className="text-3xl font-semibold text-left lg:text-center w-[150px]">
+              <h1 className="text-3xl font-semibold text-left lg:text-center w-[150px] hidden lg:block">
                 {props.talk.time}
               </h1>
-              <div className="flex items-center gap-x-3 w-[350px]">
+              <div className="flex items-center gap-x-3 w-[450px]">
                 <Suspense
                   fallback={
                     <Skeleton className="w-[100px] h-[100px] rounded-full" />
@@ -46,12 +46,12 @@ export default function AgendaCard(props: {
                     width={100}
                   ></Image>
                 </Suspense>
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-3 mx-auto">
                   <h2 className="text-2xl font-bold">{props.talk.name}</h2>
                   <h5 className="text-sm">{props.talk.info}</h5>
                 </div>
               </div>
-              <div className="flex flex-col max-w-[50vw] gap-3">
+              <div className="flex flex-col lg:w-[35vw] gap-3">
                 <h2 className="text-2xl font-bold">{props.talk.talkName}</h2>
               </div>
             </div>

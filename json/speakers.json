@@ -33,9 +33,25 @@
       "imgSrc": "/speaker-photos/Balram.png"
     },
     {
+      "time": "Panel",
+      "name": "Filip Babić",
+      "info": "Mobile team lead @ Teltech, Community lead @ GDG Osijek",
+      "talkName": "Host of Management panel discussion",
+      "talkInfo": "In this panel discussion, we will cover important topics, such as: How is management different today, vs 5 or 10 years ago?, Should a manager also be a leader and a coach?, Dealing with change in companies, The Difficulty of keping people around and many more!",
+      "imgSrc": "/speaker-photos/Filip.jpeg"
+    },
+    {
+      "time": "Panel",
+      "name": "Sandro Lovnički",
+      "info": "Flutterer @Friendly Fire, Community lead @ GDG Zagreb and @ Flutter Croatia ",
+      "talkName": "Host of Open Source panel discussion",
+      "talkInfo": "In this panel discussion, we will cover important topics, such as: Commercial Open Source, Relationship between OS and companies, maintainer responsibilites, Community relations and building community from the ground up, why go OS and many more!",
+      "imgSrc": "/speaker-photos/Sandro.jpeg"
+    },
+    {
       "time": "AI",
-      "name": "Boris Martinovic",
-      "info": "Software enginneer @ Euroherc Insurance",
+      "name": "Boris Martinović",
+      "info": "Software enginneer @ Euroherc Insurance, Community lead @ GDG Zagreb",
       "talkName": "From Punch Cards to Predictive Coding",
       "talkInfo": "We will go through the history of development workflow and how it could change in the near future. First, we will go through some of significant eras and advantages that were gained with incorporating new tech or processes. Afterwards, we will talk about how development workflows work now compared to before. Finally, we will be focusing on AI. More specifically, how AI could change our working and learning processes and compare this to some of more radical changes that happened before.",
       "imgSrc": "/speaker-photos/Boris.jpg"
