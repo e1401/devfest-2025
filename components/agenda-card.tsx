@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { Separator } from './ui/separator';
 import Image from 'next/image';
+import { Skeleton } from './ui/skeleton';
 
 export default function AgendaCard(props: {
   talk: {
@@ -20,13 +21,17 @@ export default function AgendaCard(props: {
           {props.talk.time}
         </h1>
         <div className="flex items-center gap-x-3 w-[350px]">
-          <Image
-            className="rounded-full"
-            src={props.talk.imgSrc}
-            alt={props.talk.name}
-            height={100}
-            width={100}
-          ></Image>
+          <Suspense
+            fallback={<Skeleton className="w-[100px] h-[100px] rounded-full" />}
+          >
+            <Image
+              className="rounded-full"
+              src={props.talk.imgSrc}
+              alt={props.talk.name}
+              height={100}
+              width={100}
+            ></Image>
+          </Suspense>
           <div className="flex flex-col gap-3">
             <h2 className="text-2xl font-bold">{props.talk.name}</h2>
             <h5 className="text-sm">{props.talk.info}</h5>
