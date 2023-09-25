@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { Link2, LinkIcon, Mic2, Table2, Ticket } from 'lucide-react';
+import { Link2, LinkIcon, Mic2, Table2, Ticket, User2 } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Suspense } from 'react';
 import Image from 'next/image';
@@ -8,96 +8,47 @@ import Image from 'next/image';
 export default function MainPage() {
   return (
     <div className="container flex items-center justify-center px-4 mx-auto">
-      <div className="mx-auto  sm:mt-0 sm:grid-cols-3 lg:gap-16">
-        <div className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24  lg:pb-48  md:p-16">
-          <div className="z-10 flex flex-col items-center">
-            <div className=" mx-auto font-medium duration-150 lg:text-6xl font-display text-3xl">
-              DEVFEST 2023
-            </div>
-            <div className="mt-4 mb-16 text-lg lg:text-2xl text-center duration-1000  dark:group-hover:text-slate-200 group-hover:text-slate-500 flex flex-col gap-3">
-              Zagreb, 27th October 2023 <br />
-              <div className="flex mx-auto gap-x-2">
-                <Link
-                  href="https://www.entrio.hr/event/devfest-2023-14840"
-                  target="_blank"
-                >
-                  <Button className=" w-[190px]">
-                    <Ticket className="h-4 w-4 mr-3"></Ticket>
-                    <p>Get Tickets</p>
-                  </Button>
-                </Link>
-                <Link href="/speakers">
-                  <Button className="w-[190px]">
-                    <Table2 className="h-4 w-4 mr-3"></Table2>
-                    <p>Meet the speakers</p>
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="container flex flex-col gap-y-3  w-full max-w-[1020px]">
-            <div>
-              🚀 Exciting News! DevFest 2023 is just around the corner, and you
-              won't want to miss this tech extravaganza happening live in Zagreb
-              on October 27th, 2023. Organized by GDGs and GDSC, as well as
-              Women Techmakers Croatia, this event is set to be an unforgettable
-              experience for tech enthusiasts.
-            </div>
-            <div>
-              📱🌐☁️🤖 DevFest 2023 brings you a dynamic duo of tracks covering
-              the hottest topics in the tech world: mobile, web, cloud, and AI.
-              Whether you're a developer, designer, or tech enthusiast, there's
-              something here for everyone. Get ready to dive deep into the
-              latest trends and insights in these cutting-edge fields.
-            </div>
-            <div>
-              🎙️ Renowned GDE speakers will be sharing their expertise,
-              providing you with invaluable insights and inspiration. And guess
-              what? The tickets are now up for grabs! Secure your spot with our
-              early bird tickets – act fast before they're gone. Students, we've
-              got special ticket options just for you.
-            </div>
-            <div>
-              💬🔥 On top of the regular speaking sessions, which we’ll announce
-              shortly, we’ll host two intense panel discussions, with the topics
-              being Open Source development and Management trends in the IT
-              industry.
-            </div>
-            <div>
-              🎫📚 Stay tuned for more information about ticket links, session
-              details, and the exciting lineup of speakers.
-              <br /> 🌟 Curious about how it went last year? Check out the
-              <Link href={'https://www.youtube.com/watch?v=sBUrtouEDPc'}>
-                &nbsp;
-                <span className="underline text-blue-500">
-                  DevFest 2022 videos
-                </span>
-              </Link>
-              &nbsp;and&nbsp;
+      <div className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24  lg:pb-48  md:p-16">
+        <div className="mx-auto  sm:mt-0 sm:grid-cols-3 lg:gap-16">
+          <div className="z-10 flex flex-col items-center ">
+            <div className=" bg-devfest-light dark:bg-devfest-dark max-h-[300px]"></div>
+            <h2 className="text-center w-full text-4xl font-bold drop-shadow-2xl shadow-black/50 mb-10">
+              27th October 2023
+            </h2>
+            <div className="flex flex-col mx-auto gap-6">
               <Link
-                href={
-                  'https://drive.google.com/drive/u/2/folders/1k8cO3As1QwNEEjnIfHdDCrY-q04pEa6E'
-                }
+                href="https://www.entrio.hr/event/devfest-2023-14840"
+                target="_blank"
               >
-                <span className="underline text-blue-500">gallery</span>
+                <Button className=" w-64 h-16 rounded-2xl text-xl border-2 shadow-xl bg-background text-foreground hover:text-background">
+                  <Ticket className="mr-3"></Ticket>
+                  <p>Get Tickets</p>
+                </Button>
               </Link>
-              .
-            </div>
-            <div>
-              Don't miss out on this opportunity to learn, network, and connect
-              with fellow tech enthusiasts. Mark your calendars, spread the
-              word, and let's make DevFest 2023 a tech-filled day to remember!
-              🎉👩‍💻👨‍💻 #DevFest2023 #TechConference #ZagrebTech #GDG #GDSC
+              <Link href="/speakers">
+                <Button className=" w-64 h-16 rounded-2xl text-xl border-2 shadow-xl bg-background text-foreground hover:text-background">
+                  <User2 className="mr-3"></User2>
+                  <p>Meet the speakers</p>
+                </Button>
+              </Link>
             </div>
           </div>
-          <div className="p-6 border bg-primary-foreground max-w-[1020px]">
-            <h1 className="text-center text-4xl font-bold mb-3">Location</h1>
+          <div className="flex flex-col gap-y-6 my-20">
+            <h2 className="text-center w-full text-3xl font-bold drop-shadow-2xl shadow-black/50">
+              Mobile | Web | Cloud | AI
+            </h2>
+            <h2 className="text-center w-full text-2xl font-bold drop-shadow-2xl shadow-black/50">
+              Panels: Open source | Management
+            </h2>
+          </div>
+          <div className="p-6 max-w-[1020px] rounded-2xl shadow-lg bg-background/70">
+            <h1 className="text-center text-3xl font-bold mb-3">Location</h1>
             <Link href="https://wespa.hr/" target="_blank">
-              <h2 className="text-center mb-4 w-full text-4xl font-bold bg-gradient-to-br from-purple-800 to-yellow-700 dark:from-purple-300 dark:to-yellow-200 bg-clip-text text-transparent">
+              <h2 className="text-center mb-8 w-full text-3xl font-bold bg-gradient-to-br from-yellow-400 to-purple-700 dark:from-purple-300 dark:to-yellow-200  bg-clip-text text-transparent">
                 WESPA Business and Lounge, Zagreb
               </h2>
             </Link>
-            <div className="flex flex-col lg:flex-row gap-5 justify-between">
+            <div className="flex flex-col lg:flex-row gap-8 justify-between">
               <Image
                 className=""
                 src={'/wespa-lounge.jpg'}
@@ -114,6 +65,34 @@ export default function MainPage() {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
+          </div>
+        </div>
+        <div className="p-6 max-w-[1020px] rounded-2xl shadow-lg bg-background/70">
+          <h2 className="text-center mb-8 w-full text-3xl font-bold">
+            Organized by:
+          </h2>
+          <div className="flex items-center gap-x-5">
+            <Link href={'https://gdg.community.dev/gdg-zagreb/'}>
+              <Image
+                className="rounded-2xl"
+                src={'/GDG-logo.png'}
+                alt={'GDG Logo'}
+                height={150}
+                width={150}
+              ></Image>
+            </Link>
+            <Link
+              href={'https://developers.google.com/womentechmakers'}
+              target="_blank"
+            >
+              <Image
+                className="rounded-2xl"
+                src={'/wtm-logo.png'}
+                alt={'WTM Logo'}
+                height={100}
+                width={100}
+              ></Image>
+            </Link>
           </div>
         </div>
       </div>
