@@ -47,9 +47,11 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <SiteHeader />
-          <div className="flex-1 bg-image-light dark:bg-image-dark">
-            <div className="flex-1">{children}</div>
-            <SiteFooter />
+          <div className=" bg-image-light dark:bg-image-dark">
+            <div className="flex-1">
+              <div className="flex-1">{children}</div>
+              <SiteFooter />
+            </div>
           </div>
         </ThemeProvider>
       </body>
