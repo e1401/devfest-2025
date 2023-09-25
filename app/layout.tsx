@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: ['nabrojati', 'keyworde'],
+  keywords: ['devfest', 'gdg', 'zagreb'],
   authors: [
     {
       name: 'Boris Martinovic',
@@ -47,7 +47,9 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <SiteHeader />
-          <div className="flex-1">{children}</div>
+          <div className="flex-1 bg-image-light dark:bg-image-dark">
+            {children}
+          </div>
           <SiteFooter />
         </ThemeProvider>
       </body>
