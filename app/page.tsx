@@ -12,7 +12,7 @@ export default function MainPage() {
         <div className="mx-auto  sm:mt-0 sm:grid-cols-3 lg:gap-16">
           <div className="z-10 flex flex-col items-center ">
             <div className=" bg-devfest-light dark:bg-devfest-dark max-h-[300px]"></div>
-            <h2 className="text-center w-full text-4xl font-bold drop-shadow-2xl shadow-black/50 mb-10">
+            <h2 className="text-center w-full lg:text-4xl font-bold drop-shadow-2xl shadow-black/50 mb-10">
               27th October 2023
             </h2>
             <div className="flex flex-col mx-auto gap-6">
@@ -20,13 +20,13 @@ export default function MainPage() {
                 href="https://www.entrio.hr/event/devfest-2023-14840"
                 target="_blank"
               >
-                <Button className=" w-64 h-16 rounded-2xl text-xl border-2 shadow-xl bg-background text-foreground hover:text-background">
+                <Button className=" w-64 h-16 rounded-2xl lg:text-xl border-2 shadow-xl bg-background text-foreground hover:text-background">
                   <Ticket className="mr-3"></Ticket>
                   <p>Get Tickets</p>
                 </Button>
               </Link>
               <Link href="/speakers">
-                <Button className=" w-64 h-16 rounded-2xl text-xl border-2 shadow-xl bg-background text-foreground hover:text-background">
+                <Button className=" w-64 h-16 rounded-2xl lg:text-xl border-2 shadow-xl bg-background text-foreground hover:text-background">
                   <User2 className="mr-3"></User2>
                   <p>Meet the speakers</p>
                 </Button>
@@ -34,17 +34,17 @@ export default function MainPage() {
             </div>
           </div>
           <div className="flex flex-col gap-y-6 my-20">
-            <h2 className="text-center w-full text-3xl font-bold drop-shadow-2xl shadow-black/50">
+            <h2 className="text-center w-full lg:text-3xl font-bold drop-shadow-2xl shadow-black/50">
               Mobile | Web | Cloud | AI
             </h2>
-            <h2 className="text-center w-full text-2xl font-bold drop-shadow-2xl shadow-black/50">
+            <h2 className="text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50">
               Panels: Open source | Management
             </h2>
           </div>
           <div className="p-6 max-w-[1020px] rounded-2xl shadow-lg bg-background/70">
-            <h1 className="text-center text-3xl font-bold mb-3">Location</h1>
+            <h1 className="text-center lg:text-3xl font-bold mb-3">Location</h1>
             <Link href="https://wespa.hr/" target="_blank">
-              <h2 className="text-center mb-8 w-full text-3xl font-bold bg-gradient-to-br from-yellow-400 to-purple-700 dark:from-purple-300 dark:to-yellow-200  bg-clip-text text-transparent">
+              <h2 className="text-center mb-8 w-full lg:text-3xl font-bold bg-gradient-to-br from-yellow-400 to-purple-700 dark:from-purple-300 dark:to-yellow-200  bg-clip-text text-transparent">
                 WESPA Business and Lounge, Zagreb
               </h2>
             </Link>
@@ -68,7 +68,7 @@ export default function MainPage() {
           </div>
         </div>
         <div className="p-6 max-w-[1020px] rounded-2xl shadow-lg bg-background/70">
-          <h2 className="text-center mb-8 w-full text-3xl font-bold">
+          <h2 className="text-center mb-8 w-full lg:text-3xl font-bold">
             Organized by:
           </h2>
           <div className="flex items-center gap-x-5">
