@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: ['nabrojati', 'keyworde'],
+  keywords: ['devfest', 'gdg', 'zagreb'],
   authors: [
     {
       name: 'Boris Martinovic',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     { media: '(prefers-color-scheme: dark)', color: 'black' },
   ],
   icons: {
-    icon: '/GDG.png',
+    icon: '/GDG-logo.png',
   },
 };
 
@@ -47,8 +47,12 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <SiteHeader />
-          <div className="flex-1">{children}</div>
-          <SiteFooter />
+          <div className=" bg-image-light dark:bg-image-dark">
+            <div className="flex-1">
+              <div className="flex-1">{children}</div>
+              <SiteFooter />
+            </div>
+          </div>
         </ThemeProvider>
       </body>
     </html>
