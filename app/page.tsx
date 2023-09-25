@@ -75,7 +75,7 @@ export default function MainPage() {
             <Link href={'https://gdg.community.dev/gdg-zagreb/'}>
               <Image
                 className="rounded-2xl"
-                src={'/gdg-logo.png'}
+                src={'/GDG-logo.png'}
                 alt={'GDG Logo'}
                 height={150}
                 width={150}
