@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     { media: '(prefers-color-scheme: dark)', color: 'black' },
   ],
   icons: {
-    icon: '/GDG.png',
+    icon: '/GDG-logo.png',
   },
 };
 

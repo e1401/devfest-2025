@@ -41,7 +41,7 @@ export default function MainPage() {
               Panels: Open source | Management
             </h2>
           </div>
-          <div className="p-6 max-w-[1020px] rounded-xl shadow-lg bg-background/70">
+          <div className="p-6 max-w-[1020px] rounded-2xl shadow-lg bg-background/70">
             <h1 className="text-center text-3xl font-bold mb-3">Location</h1>
             <Link href="https://wespa.hr/" target="_blank">
               <h2 className="text-center mb-8 w-full text-3xl font-bold bg-gradient-to-br from-yellow-400 to-purple-700 dark:from-purple-300 dark:to-yellow-200  bg-clip-text text-transparent">
@@ -65,6 +65,34 @@ export default function MainPage() {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
+          </div>
+        </div>
+        <div className="p-6 max-w-[1020px] rounded-2xl shadow-lg bg-background/70">
+          <h2 className="text-center mb-8 w-full text-3xl font-bold">
+            Organized by:
+          </h2>
+          <div className="flex items-center gap-x-5">
+            <Link href={'https://gdg.community.dev/gdg-zagreb/'}>
+              <Image
+                className="rounded-2xl"
+                src={'/gdg-logo.png'}
+                alt={'GDG Logo'}
+                height={150}
+                width={150}
+              ></Image>
+            </Link>
+            <Link
+              href={'https://developers.google.com/womentechmakers'}
+              target="_blank"
+            >
+              <Image
+                className="rounded-2xl"
+                src={'/wtm-logo.png'}
+                alt={'WTM Logo'}
+                height={100}
+                width={100}
+              ></Image>
+            </Link>
           </div>
         </div>
       </div>
