@@ -42,8 +42,16 @@
     },
     {
       "time": "Talk",
+      "name": "Matthias Geisler",
+      "info": "Software Engineer @ LichtBlick SE",
+      "talkName": "TDD for Kotlin (and for Beginners)",
+      "talkInfo": "This talk will give a (brief) intro into TDD (with Kotlin), so that people lose their fear to try it themselves. Ever wondered what TDD is or 'how' you can use it? You think you cannot TDD projects in a reasonable time? You doubt the value of testing in any case. Well let me bring you the good word of TDD and what wonders it can for you!",
+      "imgSrc": "/speaker-photos/Matthias.jpg"
+    },
+    {
+      "time": "Talk",
       "name": "Vasilika Klimova",
-      "info": "Developer Relations Engineer at Kadena, GDE",
+      "info": "Developer Relations Engineer @ Kadena, GDE",
       "talkName": "Happy Healthy Team",
       "talkInfo": "How not to go crazy when you have just 2 weeks before the release, and the design is not yet fully ready? What if the important developers leave the team before the release? Let’s talk about how to build processes in a team to have a self-managing team with a healthy environment.",
       "imgSrc": "/speaker-photos/Vasilika.jpg"
