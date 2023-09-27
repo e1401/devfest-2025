@@ -1,7 +1,7 @@
 {
   "speakers": [
     {
-      "time": "Web",
+      "time": "Talk",
       "name": "Josefine Schäfer",
       "info": "GDE Web technologies, Developer Relations Engineer at Storyblok",
       "talkName": "Beyond Compliance: Testing for a more Accessible Web",
@@ -9,7 +9,7 @@
       "imgSrc": "/speaker-photos/Josefine.png"
     },
     {
-      "time": "Web",
+      "time": "Talk",
       "name": "Nicolas Frizzarin",
       "info": "GDE Web technologies, Developer Advocate and Senior Staff Engineer @ Sfeir Luxembourg",
       "talkName": "The digital age of web hydrations",
@@ -17,7 +17,7 @@
       "imgSrc": "/speaker-photos/Nicolas.jpg"
     },
     {
-      "time": "Web",
+      "time": "Talk",
       "name": "Henry Lim",
       "info": "GDE Web technologies",
       "talkName": "Chrome DevTools LIVE LIVE LIVE",
@@ -25,12 +25,44 @@
       "imgSrc": "/speaker-photos/Henry.png"
     },
     {
-      "time": "AI / Web",
+      "time": "Talk",
+      "name": "Guilermo Rodas",
+      "info": "GDE Web technologies, Senior Full-stack Engineer at EQT Group @ Motherbrain",
+      "talkName": " WebAuth and Passkeys: The future of authentication",
+      "talkInfo": "In the face of digital threats, strong, easy-to-use authentication is key. 'WebAuth and Passkeys: The future of authentication' examines WebAuth and Passkeys, their constraints, user experience effects, and cybersecurity impacts. Discover why these innovations could revolutionize online authentication.",
+      "imgSrc": "/speaker-photos/Guilermo.JPG"
+    },
+    {
+      "time": "Talk",
       "name": "Balram Chavan",
       "info": "GDE Web technologies, Architect, @ Boehringer Ingelheim",
       "talkName": "Unleashing the Potential of AI Tools in Web Development ",
       "talkInfo": "Embark on a journey that explores the seamless synergy of web development and cutting-edge AI capabilities. Discover how AI enhances code quality, testing precision, and offers insights into performance optimization.",
       "imgSrc": "/speaker-photos/Balram.png"
+    },
+    {
+      "time": "Talk",
+      "name": "Matthias Geisler",
+      "info": "Software Engineer @ LichtBlick SE",
+      "talkName": "TDD for Kotlin (and for Beginners)",
+      "talkInfo": "This talk will give a (brief) intro into TDD (with Kotlin), so that people lose their fear to try it themselves. Ever wondered what TDD is or 'how' you can use it? You think you cannot TDD projects in a reasonable time? You doubt the value of testing in any case. Well let me bring you the good word of TDD and what wonders it can for you!",
+      "imgSrc": "/speaker-photos/Matthias.jpg"
+    },
+    {
+      "time": "Talk",
+      "name": "Vasilika Klimova",
+      "info": "Developer Relations Engineer @ Kadena, GDE",
+      "talkName": "Happy Healthy Team",
+      "talkInfo": "How not to go crazy when you have just 2 weeks before the release, and the design is not yet fully ready? What if the important developers leave the team before the release? Let’s talk about how to build processes in a team to have a self-managing team with a healthy environment.",
+      "imgSrc": "/speaker-photos/Vasilika.jpg"
+    },
+    {
+      "time": "Talk",
+      "name": "Martin Jagodić",
+      "info": "Maintainer at Decap CMS",
+      "talkName": "Unleashing the Power of Git-Based Content Management Systems",
+      "talkInfo": "If you’re starting a small blog or if you’re scaling up an enterprise website, a headless Git-based CMS could be the content management solution you’re looking for. At this session, discover how storing your content with your code can speed up, simplify, and streamline your workflow and how making content developer-first makes everyone happier to contribute.",
+      "imgSrc": "/speaker-photos/Martin.png"
     },
     {
       "time": "Panel",
@@ -49,7 +81,7 @@
       "imgSrc": "/speaker-photos/Sandro.jpeg"
     },
     {
-      "time": "AI",
+      "time": "Talk",
       "name": "Boris Martinović",
       "info": "Software enginneer @ Euroherc Insurance, Community lead @ GDG Zagreb",
       "talkName": "From Punch Cards to Predictive Coding",
@@ -57,7 +89,7 @@
       "imgSrc": "/speaker-photos/Boris.jpg"
     },
     {
-      "time": "Cloud",
+      "time": "Talk",
       "name": "Artem Nikulchenko",
       "info": "Chief software architect @ Teamwork Commerce",
       "talkName": "Hidden Gems of BigQuery",
