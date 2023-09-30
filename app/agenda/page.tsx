@@ -16,7 +16,7 @@ export default async function Agenda() {
           <span className="underline">here</span>
         </Link>
       </h2>
-      <Tabs defaultValue="enter" className="w-9/12 lg:w-2/3 m-5">
+      <Tabs defaultValue="enter" className="w-full lg:w-2/3">
         <TabsList className="grid w-full grid-cols-2">
           <TabsTrigger value="enter">Enter stage </TabsTrigger>
           <TabsTrigger value="shift">Shift stage</TabsTrigger>
