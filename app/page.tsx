@@ -31,6 +31,12 @@ export default function MainPage() {
                   <p>Meet the speakers</p>
                 </Button>
               </Link>
+              <Link href="/agenda">
+                <Button className=" w-64 h-16 rounded-2xl lg:text-xl border-2 shadow-xl bg-background text-foreground hover:text-background">
+                  <Table2 className="mr-3"></Table2>
+                  <p>See the agenda</p>
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="flex flex-col gap-y-6 my-20">

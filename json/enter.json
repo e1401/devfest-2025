@@ -1,0 +1,74 @@
+{
+  "talks": [
+    {
+      "time": "09:45",
+      "name": "",
+      "talkName": "Introduction and welcome"
+    },
+    {
+      "time": "10:00",
+      "name": "Boris Martinović",
+      "talkName": "From Punch Cards to  AI's Upcoming Revolution"
+    },
+    {
+      "time": "10:30",
+      "name": "Josefine Schäfer",
+      "talkName": "Beyond Compliance: Testing for a more accessible web"
+    },
+    {
+      "time": "11:00",
+      "name": "",
+      "talkName": "Coffee break"
+    },
+    {
+      "time": "11:30",
+      "name": "Filip Babić",
+      "talkName": "Management and leadership - panel discussion"
+    },
+    {
+      "time": "13:00",
+      "name": "",
+      "talkName": "Lunch and networking break"
+    },
+    {
+      "time": "14:00",
+      "name": "Jigyasa Grover",
+      "talkName": "Sculpting Data for Machine Learning"
+    },
+    {
+      "time": "14:30",
+      "name": "Artem Nikulchenko",
+      "talkName": "Hidden Gems of Bigquery"
+    },
+    {
+      "time": "15:00",
+      "name": "",
+      "talkName": "Coffee break"
+    },
+    {
+      "time": "15:30",
+      "name": "Guilermo Rodas",
+      "talkName": "WebAuth and Passkeys: The future of authentication"
+    },
+    {
+      "time": "16:00",
+      "name": "Tomislav Bronzin | Arian Stipić",
+      "talkName": "Why do we need middleware for the (G)AI"
+    },
+    {
+      "time": "16:30",
+      "name": "",
+      "talkName": "Coffee break"
+    },
+    {
+      "time": "16:45",
+      "name": "Sandro Lovnički | Matija Šošić | Ian Rumac",
+      "talkName": "Open Source - panel discussion"
+    },
+    {
+      "time": "18:15",
+      "name": "",
+      "talkName": "Closing ceremony"
+    }
+  ]
+}

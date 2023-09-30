@@ -1,0 +1,64 @@
+{
+  "talks": [
+    {
+      "time": "10:00",
+      "name": "Sandro Lovnički",
+      "talkName": "Flutter Desktop"
+    },
+    {
+      "time": "10:30",
+      "name": "Vasilika Klimova",
+      "talkName": "Happy healthy team"
+    },
+    {
+      "time": "11:00",
+      "name": "",
+      "talkName": "Coffee break"
+    },
+    {
+      "time": "11:30",
+      "name": "Balram Chavan",
+      "talkName": "The Fusion of Web Development and AI"
+    },
+    {
+      "time": "12:00",
+      "name": "Himanshu Singh",
+      "talkName": "Elevating App Performance"
+    },
+    {
+      "time": "12:30",
+      "name": "Brando Koch",
+      "talkName": "Generative AI - What is it? How it works? Why it matters?"
+    },
+    {
+      "time": "13:00",
+      "name": "",
+      "talkName": "Lunch and networking break"
+    },
+    {
+      "time": "14:00",
+      "name": "Martin Jagodić",
+      "talkName": "Unleashing the power of Git-based CMS"
+    },
+    {
+      "time": "14:30",
+      "name": "Henry Lim",
+      "talkName": "Chrome DevTools LIVE LIVE LIVE"
+    },
+    {
+      "time": "15:00",
+      "name": "",
+      "talkName": "Coffee break"
+    },
+    {
+      "time": "15:30",
+      "name": "Matthias Geisler",
+      "talkName": "TDD for Kotlin (and for Beginners)"
+    },
+    {
+      "time": "16:00",
+      "name": "Nicolas Frizzarin",
+      "talkName": "The digital age of web hydrations"
+    }
+  ]
+}
