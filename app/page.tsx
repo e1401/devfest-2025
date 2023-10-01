@@ -25,16 +25,16 @@ export default function MainPage() {
                   <p>Get Tickets</p>
                 </Button>
               </Link>
+              <Link href="/agenda">
+                <Button className=" w-64 h-16 rounded-2xl lg:text-xl border-2 shadow-xl bg-background text-foreground hover:text-background">
+                  <Table2 className="mr-3"></Table2>
+                  <p>View agenda</p>
+                </Button>
+              </Link>
               <Link href="/speakers">
                 <Button className=" w-64 h-16 rounded-2xl lg:text-xl border-2 shadow-xl bg-background text-foreground hover:text-background">
                   <User2 className="mr-3"></User2>
                   <p>Meet the speakers</p>
-                </Button>
-              </Link>
-              <Link href="/agenda">
-                <Button className=" w-64 h-16 rounded-2xl lg:text-xl border-2 shadow-xl bg-background text-foreground hover:text-background">
-                  <Table2 className="mr-3"></Table2>
-                  <p>See the agenda</p>
                 </Button>
               </Link>
             </div>

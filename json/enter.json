@@ -1,6 +1,11 @@
 {
   "talks": [
     {
+      "time": "09:00",
+      "name": "",
+      "talkName": "Registration and networking"
+    },
+    {
       "time": "09:45",
       "name": "",
       "talkName": "Introduction and welcome"
@@ -38,7 +43,7 @@
     {
       "time": "14:30",
       "name": "Artem Nikulchenko",
-      "talkName": "Hidden Gems of Bigquery"
+      "talkName": "Hidden Gems of BigQuery"
     },
     {
       "time": "15:00",
@@ -69,6 +74,11 @@
       "time": "18:15",
       "name": "",
       "talkName": "Closing ceremony"
+    },
+    {
+      "time": "21:00",
+      "name": "",
+      "talkName": "After party"
     }
   ]
 }

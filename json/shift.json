@@ -1,9 +1,14 @@
 {
   "talks": [
     {
+      "time": "09:00",
+      "name": "",
+      "talkName": "Registration and networking"
+    },
+    {
       "time": "10:00",
       "name": "Sandro Lovnički",
-      "talkName": "Flutter Desktop"
+      "talkName": "Flutter Everywhere"
     },
     {
       "time": "10:30",
@@ -59,6 +64,11 @@
       "time": "16:00",
       "name": "Nicolas Frizzarin",
       "talkName": "The digital age of web hydrations"
+    },
+    {
+      "time": "21:00",
+      "name": "",
+      "talkName": "After party"
     }
   ]
 }

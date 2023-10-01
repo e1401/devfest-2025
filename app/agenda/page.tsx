@@ -18,8 +18,8 @@ export default async function Agenda() {
       </h2>
       <Tabs defaultValue="enter" className="w-full lg:w-2/3">
         <TabsList className="grid w-full grid-cols-2">
-          <TabsTrigger value="enter">Enter stage </TabsTrigger>
-          <TabsTrigger value="shift">Shift stage</TabsTrigger>
+          <TabsTrigger value="enter">Stage "Enter"</TabsTrigger>
+          <TabsTrigger value="shift">Stage "Shift"</TabsTrigger>
         </TabsList>
         <TabsContent value="enter">
           <div className="flex flex-col gap-3">
