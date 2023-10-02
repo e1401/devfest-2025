@@ -69,14 +69,6 @@
 }
 
 @layer base {
-  .bg-image-dark {
-    width: 100%;
-    height: 100%;
-    background-image: url('/black-bg.png');
-    background-repeat: repeat;
-    background-size: contain;
-  }
-
   .bg-devfest-dark {
     width: 500px;
     height: 300px;
@@ -87,13 +79,6 @@
     width: 500px;
     height: 300px;
     background-image: url('/devfest-light.png');
-    background-size: contain;
-  }
-  .bg-image-light {
-    width: 100%;
-    height: 100%;
-    background-image: url('/white-bg.png');
-    background-repeat: repeat;
     background-size: contain;
   }
   * {
