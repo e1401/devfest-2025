@@ -10,7 +10,7 @@
     },
     {
       "time": "Talk",
-      "name": "Medhad Dawoud",
+      "name": "Medhat Dawoud",
       "info": "Senior Software Engineer @ Miro, GDE Web Technologies",
       "talkName": "Embrace the web performance budget rituals",
       "talkInfo": "In this talk I will use the dental metaphor in order to introduce the performance budgets just like brushing teeth everyday to keep them clean and healthy you should do the same for your website by setting a performance budget and check it in every pull request in your pipelines, the target audience is mid-level to advanced, I will start by the example of the tooth decay and cleaning them then brushing them everyday as the dentist advice, then explain decay as the performance issue and performance budgeting is like the toothpaste and go from here with the different techniques that developers can do in order to prevent any loss in the performance wins they made.",
@@ -34,7 +34,7 @@
     },
     {
       "time": "Talk",
-      "name": "Guilermo Rodas",
+      "name": "Guillermo Rodas",
       "info": "GDE Web technologies, Senior Full-stack Engineer at EQT Group @ Motherbrain",
       "talkName": " WebAuth and Passkeys: The future of authentication",
       "talkInfo": "In the face of digital threats, strong, easy-to-use authentication is key. 'WebAuth and Passkeys: The future of authentication' examines WebAuth and Passkeys, their constraints, user experience effects, and cybersecurity impacts. Discover why these innovations could revolutionize online authentication.",
