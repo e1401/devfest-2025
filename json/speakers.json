@@ -66,7 +66,7 @@
     },
     {
       "time": "Talk",
-      "name": "Martin Jagodić",
+      "name": "Martin Jagodic",
       "info": "Maintainer at Decap CMS",
       "talkName": "Unleashing the Power of Git-Based Content Management Systems",
       "talkInfo": "If you’re starting a small blog or if you’re scaling up an enterprise website, a headless Git-based CMS could be the content management solution you’re looking for. At this session, discover how storing your content with your code can speed up, simplify, and streamline your workflow and how making content developer-first makes everyone happier to contribute.",
