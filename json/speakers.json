@@ -89,6 +89,14 @@
       "imgSrc": "/speaker-photos/Sandro.jpeg"
     },
     {
+      "time": "Panel",
+      "name": "Petyo Ivanov",
+      "info": "Full-time OS author and developer  @ mdxeditor.dev @ virtuoso.dev",
+      "talkName": "Open Source panel discussion",
+      "talkInfo": "A prolific GitHub star collector, Petyo is currently exploring the options of developing profitable bootstrapped business models with an open-source core.",
+      "imgSrc": "/speaker-photos/Petyo.jpg"
+    },
+    {
       "time": "Talk",
       "name": "Boris Martinović",
       "info": "Software enginneer @ Euroherc Insurance, Community lead @ GDG Zagreb",

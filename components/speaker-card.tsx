@@ -63,7 +63,7 @@ export default function SpeakerCard(props: {
             </div>
           </AccordionTrigger>
           <AccordionContent>
-            <div className="flex flex-col lg:flex-row items-center lg:gap-x-12 gap-y-3 border p-3 rounded-lg">
+            <div className="flex flex-col lg:flex-row items-center lg:gap-x-12 gap-y-3 p-1 rounded-lg">
               <h5 className="text-sm">{props.talk.talkInfo}</h5>
             </div>
           </AccordionContent>
