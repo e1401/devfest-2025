@@ -2,7 +2,7 @@
   "speakers": [
     {
       "time": "Talk",
-      "name": "Josefine Schäfer",
+      "name": "Josefine Schaefer",
       "info": "GDE Web technologies, Developer Relations Engineer at Storyblok",
       "talkName": "Beyond Compliance: Testing for a more Accessible Web",
       "talkInfo": "You want to go beyond roughly meeting guidelines but actually create products that cater a large audience and their needs? To not only fulfill requirements but actually create mindful content & empathic code? Anybody working in tech has the responsibility to provide an inclusive, accessible experience. Let's dive into web accessibility best practices, testing & auditing strategies to take your project to the next level. ",
