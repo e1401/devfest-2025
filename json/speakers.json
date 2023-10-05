@@ -2,7 +2,7 @@
   "speakers": [
     {
       "time": "Talk",
-      "name": "Josefine Schäfer",
+      "name": "Josefine Schaefer",
       "info": "GDE Web technologies, Developer Relations Engineer at Storyblok",
       "talkName": "Beyond Compliance: Testing for a more Accessible Web",
       "talkInfo": "You want to go beyond roughly meeting guidelines but actually create products that cater a large audience and their needs? To not only fulfill requirements but actually create mindful content & empathic code? Anybody working in tech has the responsibility to provide an inclusive, accessible experience. Let's dive into web accessibility best practices, testing & auditing strategies to take your project to the next level. ",
@@ -23,6 +23,22 @@
       "talkName": "The digital age of web hydrations",
       "talkInfo": "Hydration is a very large concept which is quite difficult to understand and apply. In this talk, you will get to know what web hydration really is and the different kinds of web hydration that are applicable for different use cases.",
       "imgSrc": "/speaker-photos/Nicolas.jpg"
+    },
+    {
+      "time": "Talk",
+      "name": "Tomislav Bronzin",
+      "info": "CXO – Chief eXcitement Officer @ CITUS",
+      "talkName": "Why do we need middleware for the (G)AI",
+      "talkInfo": "Almost every day, new (generative) artificial intelligence services are emerging around the world. Wouldn't it be great if we had something to help us connect our apps to existing or new (G)AI services? This lecture describes how the middleware platform could be a solution to more easily catch up with the different APIs of existing and new services that are emerging.",
+      "imgSrc": "/speaker-photos/Tomislav.jpeg"
+    },
+    {
+      "time": "Talk",
+      "name": "Arian Stipić",
+      "info": "Strategic IT Consultant @ CITUS",
+      "talkName": "Why do we need middleware for the (G)AI",
+      "talkInfo": "Almost every day, new (generative) artificial intelligence services are emerging around the world. Wouldn't it be great if we had something to help us connect our apps to existing or new (G)AI services? This lecture describes how the middleware platform could be a solution to more easily catch up with the different APIs of existing and new services that are emerging.",
+      "imgSrc": "/speaker-photos/Arian.jpeg"
     },
     {
       "time": "Talk",
@@ -47,6 +63,14 @@
       "talkName": "Unleashing the Potential of AI Tools in Web Development ",
       "talkInfo": "Embark on a journey that explores the seamless synergy of web development and cutting-edge AI capabilities. Discover how AI enhances code quality, testing precision, and offers insights into performance optimization.",
       "imgSrc": "/speaker-photos/Balram.png"
+    },
+    {
+      "time": "Talk",
+      "name": "Himanshu Singh",
+      "info": "GDE Android and Kotlin, Senior Android Engineer @ NordVPN",
+      "talkName": "Elevating app performance",
+      "talkInfo": "With apps being developed at a rapid pace for diverse locales and users, it is crucial to continuously enhance app performance to provide an exceptional user experience. This talk will focus on various strategies to improve app performance and empower developers to create high-performing apps.",
+      "imgSrc": "/speaker-photos/Himanshu.jpg"
     },
     {
       "time": "Talk",
