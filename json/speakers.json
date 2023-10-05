@@ -26,6 +26,22 @@
     },
     {
       "time": "Talk",
+      "name": "Tomislav Bronzin",
+      "info": "CXO – Chief eXcitement Officer @ CITUS",
+      "talkName": "Why do we need middleware for the (G)AI",
+      "talkInfo": "Almost every day, new (generative) artificial intelligence services are emerging around the world. Wouldn't it be great if we had something to help us connect our apps to existing or new (G)AI services? This lecture describes how the middleware platform could be a solution to more easily catch up with the different APIs of existing and new services that are emerging.",
+      "imgSrc": "/speaker-photos/Tomislav.jpeg"
+    },
+    {
+      "time": "Talk",
+      "name": "Arian Stipić",
+      "info": "Strategic IT Consultant @ CITUS",
+      "talkName": "Why do we need middleware for the (G)AI",
+      "talkInfo": "Almost every day, new (generative) artificial intelligence services are emerging around the world. Wouldn't it be great if we had something to help us connect our apps to existing or new (G)AI services? This lecture describes how the middleware platform could be a solution to more easily catch up with the different APIs of existing and new services that are emerging.",
+      "imgSrc": "/speaker-photos/Arian.jpeg"
+    },
+    {
+      "time": "Talk",
       "name": "Henry Lim",
       "info": "GDE Web technologies",
       "talkName": "Chrome DevTools LIVE LIVE LIVE",
@@ -47,6 +63,14 @@
       "talkName": "Unleashing the Potential of AI Tools in Web Development ",
       "talkInfo": "Embark on a journey that explores the seamless synergy of web development and cutting-edge AI capabilities. Discover how AI enhances code quality, testing precision, and offers insights into performance optimization.",
       "imgSrc": "/speaker-photos/Balram.png"
+    },
+    {
+      "time": "Talk",
+      "name": "Himanshu Singh",
+      "info": "GDE Android and Kotlin, Senior Android Engineer @ NordVPN",
+      "talkName": "Elevating app performance",
+      "talkInfo": "With apps being developed at a rapid pace for diverse locales and users, it is crucial to continuously enhance app performance to provide an exceptional user experience. This talk will focus on various strategies to improve app performance and empower developers to create high-performing apps.",
+      "imgSrc": "/speaker-photos/Himanshu.jpg"
     },
     {
       "time": "Talk",
