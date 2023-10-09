@@ -1,6 +1,47 @@
 {
   "speakers": [
     {
+      "time": "Panel",
+      "name": "Filip Babić",
+      "info": "Mobile team lead @ Teltech, Community lead @ GDG Osijek",
+      "talkName": "Host of Management panel discussion",
+      "talkInfo": "In this panel discussion, we will cover important topics, such as: How is management different today, vs 5 or 10 years ago?, Should a manager also be a leader and a coach?, Dealing with change in companies, The Difficulty of keping people around and many more!",
+      "imgSrc": "/speaker-photos/Filip.jpeg"
+    },
+
+    {
+      "time": "Panel",
+      "name": "Aleksandra Ignatoski",
+      "info": "COO @ Aesuts accounting",
+      "talkName": "Management panel discussion",
+      "talkInfo": "Aleksandra Ignatoski is the acting COO at Aestus Accounting. She's making sure that both the development of the application Parra and its quality of service are fully aligned with customer needs. She graduated in the field of management, but her passion towards technology and building something new drew her into IT product development.",
+      "imgSrc": "/speaker-photos/Aleksandra.png"
+    },
+    {
+      "time": "Panel",
+      "name": "Sandro Lovnički",
+      "info": "Flutterer @Friendly Fire, Community lead @ GDG Zagreb and @ Flutter Croatia ",
+      "talkName": "Host of Open Source panel discussion",
+      "talkInfo": "In this panel discussion, we will cover important topics, such as: Commercial Open Source, Relationship between OS and companies, maintainer responsibilites, Community relations and building community from the ground up, why go OS and many more!",
+      "imgSrc": "/speaker-photos/Sandro.jpeg"
+    },
+    {
+      "time": "Panel",
+      "name": "Matija Šošić",
+      "info": "CEO and Co-founder @ Wasp",
+      "talkName": "Open Source panel discussion",
+      "talkInfo": "Matija is the CEO & co-founder of Wasp together with his twin brother. This is the second startup they started together, funded by Y Combinator and top deep tech funds in 2021. Matija's background is an MSc in Computer Science from the University of Zagreb. His previous work spans from a research institute in Singapore to top-growing startups in NYC and London, covering fields of bioinformatics, mobile, and web development.",
+      "imgSrc": "/speaker-photos/Matija.png"
+    },
+    {
+      "time": "Panel",
+      "name": "Petyo Ivanov",
+      "info": "Full-time OS author and developer  @ mdxeditor.dev @ virtuoso.dev",
+      "talkName": "Open Source panel discussion",
+      "talkInfo": "A prolific GitHub star collector, Petyo is currently exploring the options of developing profitable bootstrapped business models with an open-source core.",
+      "imgSrc": "/speaker-photos/Petyo.jpg"
+    },
+    {
       "time": "Talk",
       "name": "Josefine Schaefer",
       "info": "GDE Web technologies, Developer Relations Engineer at Storyblok",
@@ -95,30 +136,6 @@
       "talkName": "Unleashing the Power of Git-Based Content Management Systems",
       "talkInfo": "If you’re starting a small blog or if you’re scaling up an enterprise website, a headless Git-based CMS could be the content management solution you’re looking for. At this session, discover how storing your content with your code can speed up, simplify, and streamline your workflow and how making content developer-first makes everyone happier to contribute.",
       "imgSrc": "/speaker-photos/Martin.png"
-    },
-    {
-      "time": "Panel",
-      "name": "Filip Babić",
-      "info": "Mobile team lead @ Teltech, Community lead @ GDG Osijek",
-      "talkName": "Host of Management panel discussion",
-      "talkInfo": "In this panel discussion, we will cover important topics, such as: How is management different today, vs 5 or 10 years ago?, Should a manager also be a leader and a coach?, Dealing with change in companies, The Difficulty of keping people around and many more!",
-      "imgSrc": "/speaker-photos/Filip.jpeg"
-    },
-    {
-      "time": "Panel",
-      "name": "Sandro Lovnički",
-      "info": "Flutterer @Friendly Fire, Community lead @ GDG Zagreb and @ Flutter Croatia ",
-      "talkName": "Host of Open Source panel discussion",
-      "talkInfo": "In this panel discussion, we will cover important topics, such as: Commercial Open Source, Relationship between OS and companies, maintainer responsibilites, Community relations and building community from the ground up, why go OS and many more!",
-      "imgSrc": "/speaker-photos/Sandro.jpeg"
-    },
-    {
-      "time": "Panel",
-      "name": "Petyo Ivanov",
-      "info": "Full-time OS author and developer  @ mdxeditor.dev @ virtuoso.dev",
-      "talkName": "Open Source panel discussion",
-      "talkInfo": "A prolific GitHub star collector, Petyo is currently exploring the options of developing profitable bootstrapped business models with an open-source core.",
-      "imgSrc": "/speaker-photos/Petyo.jpg"
     },
     {
       "time": "Talk",
