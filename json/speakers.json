@@ -19,6 +19,14 @@
     },
     {
       "time": "Panel",
+      "name": "Kaja Pavlinić",
+      "info": "COO @ Speck",
+      "talkName": "Management panel discussion",
+      "talkInfo": "Kaja Pavlinić is a Master of Science in Software Engineering and the Chief Operating Officer in Speck. Additionally, Kaja is an alumna of the US Department of State Exchange community, president of Sustainable Development Forum Green Window, owner of KAJUŠKA business, a mentor within the Clinton Global Initiative University initiative, and a Climate Pact ambassador. Kaja has more than 3.5 years of experience in the IT industry and over 10 years of experience in managing and organizing projects focused on youth and civil society. She currently lives and works in Croatia. Throughout her career, Kaja has received awards such as the „Future Leader“ from the Croatian Women's Network and the „30 Under 30“ award as part of the VIDI Awards. She has participated in the organization and implementation of several dozen local and international projects related to the IT industry, civil society, active citizenship, and youth. Her focus and passion are directed towards empowering youth, sustainable development, active citizenship, project management, business development, and IT.",
+      "imgSrc": "/speaker-photos/Kaja.png"
+    },
+    {
+      "time": "Panel",
       "name": "Sandro Lovnički",
       "info": "Flutterer @Friendly Fire, Community lead @ GDG Zagreb and @ Flutter Croatia ",
       "talkName": "Host of Open Source panel discussion",
