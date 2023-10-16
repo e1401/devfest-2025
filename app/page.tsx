@@ -4,6 +4,7 @@ import { Link2, LinkIcon, Mic2, Table2, Ticket, User2 } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Suspense } from 'react';
 import Image from 'next/image';
+import ConfAfterImage from '@/components/conf-after-image';
 
 export default function MainPage() {
   return (
@@ -51,7 +52,10 @@ export default function MainPage() {
               </h2>
             </div>
           </div>
-          <div className="flex flex-col gap-y-6 my-20">
+          <div className="flex flex-col gap-y-6 my-20 items-center">
+            <div className="w-[500px] pt-2 px-2 border shadow-lg bg-background rounded-xl">
+              <ConfAfterImage />
+            </div>
             <h2 className="text-center w-full lg:text-3xl font-bold drop-shadow-2xl shadow-black/50">
               Mobile | Web | Cloud | AI
             </h2>
