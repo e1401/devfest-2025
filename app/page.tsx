@@ -15,7 +15,7 @@ export default function MainPage() {
             <h2 className="text-center w-full lg:text-4xl font-bold drop-shadow-2xl shadow-black/50 mb-10">
               27th October 2023
             </h2>
-            <div className="flex flex-col mx-auto gap-6">
+            <div className="flex flex-col items-center gap-6">
               <Link
                 href="https://www.entrio.hr/event/devfest-2023-14840"
                 target="_blank"
@@ -37,14 +37,23 @@ export default function MainPage() {
                   <p>Meet the speakers</p>
                 </Button>
               </Link>
+              <h2 className="text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50">
+                15+ speakers over 2 stages
+              </h2>
+              <h2 className="text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50">
+                Panels: Open source | Management
+              </h2>
+              <h2 className="text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50">
+                Food, drinks, a lot of networking
+              </h2>
+              <h2 className="text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50">
+                Huge after-party
+              </h2>
             </div>
           </div>
           <div className="flex flex-col gap-y-6 my-20">
             <h2 className="text-center w-full lg:text-3xl font-bold drop-shadow-2xl shadow-black/50">
               Mobile | Web | Cloud | AI
-            </h2>
-            <h2 className="text-center w-full lg:text-2xl font-bold drop-shadow-2xl shadow-black/50">
-              Panels: Open source | Management
             </h2>
           </div>
           <div className="p-6 max-w-[1020px] rounded-2xl shadow-lg bg-background/70">
