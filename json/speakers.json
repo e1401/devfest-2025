@@ -12,7 +12,7 @@
     {
       "time": "Panel",
       "name": "Aleksandra Ignatoski",
-      "info": "COO @ Aesuts accounting",
+      "info": "COO @ Aesuts Accounting",
       "talkName": "Management panel discussion",
       "talkInfo": "Aleksandra Ignatoski is the acting COO at Aestus Accounting. She's making sure that both the development of the application Parra and its quality of service are fully aligned with customer needs. She graduated in the field of management, but her passion towards technology and building something new drew her into IT product development.",
       "imgSrc": "/speaker-photos/Aleksandra.png"
@@ -48,14 +48,6 @@
       "talkName": "Open Source panel discussion",
       "talkInfo": "A prolific GitHub star collector, Petyo is currently exploring the options of developing profitable bootstrapped business models with an open-source core.",
       "imgSrc": "/speaker-photos/Petyo.jpg"
-    },
-    {
-      "time": "Talk",
-      "name": "Josefine Schaefer",
-      "info": "GDE Web technologies, Developer Relations Engineer at Storyblok",
-      "talkName": "Beyond Compliance: Testing for a more Accessible Web",
-      "talkInfo": "You want to go beyond roughly meeting guidelines but actually create products that cater a large audience and their needs? To not only fulfill requirements but actually create mindful content & empathic code? Anybody working in tech has the responsibility to provide an inclusive, accessible experience. Let's dive into web accessibility best practices, testing & auditing strategies to take your project to the next level. ",
-      "imgSrc": "/speaker-photos/Josefine.png"
     },
     {
       "time": "Talk",
@@ -152,14 +144,6 @@
       "talkName": "From Punch Cards to Predictive Coding",
       "talkInfo": "We will go through the history of development workflow and how it could change in the near future. First, we will go through some of significant eras and advantages that were gained with incorporating new tech or processes. Afterwards, we will talk about how development workflows work now compared to before. Finally, we will be focusing on AI. More specifically, how AI could change our working and learning processes and compare this to some of more radical changes that happened before.",
       "imgSrc": "/speaker-photos/Boris.jpg"
-    },
-    {
-      "time": "Talk",
-      "name": "Artem Nikulchenko",
-      "info": "Chief software architect @ Teamwork Commerce",
-      "talkName": "Hidden Gems of BigQuery",
-      "talkInfo": "BigQuery is amazing It is one of my favorite tools within Google Cloud. Luckily, it looks like Google feels the same and, to the joy of BigQuery fans, keeps adding new features there. No matter how long I have been working with BigQuery, there is always something new I discover once in a while. In this talk, we will start by talking about BigQuery in general and its internal architecture, then talk about the ELT process and tools around BigQuery to facilitate this process, and then move to highlight several amazing BQ features, including three ways to do change tracking in BigQuery, machine learning, indexing, and transactions.",
-      "imgSrc": "/speaker-photos/Artem.jpeg"
     }
   ]
 }

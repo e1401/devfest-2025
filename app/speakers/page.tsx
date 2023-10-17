@@ -15,9 +15,13 @@ export default async function Speakers() {
           <span className="underline">here</span>
         </Link>
       </h2>
-      {speakers.speakers.map((talk) => {
-        return <SpeakerCard talk={talk} />;
-      })}
+      {speakers.speakers
+        .sort((a, b) =>
+          a.name.split(' ')[1].localeCompare(b.name.split(' ')[1])
+        )
+        .map((talk) => {
+          return <SpeakerCard talk={talk} />;
+        })}
       <h2 className="mt-10 text-4xl font-bold">...AND MANY MORE TO COME</h2>
     </div>
   );
