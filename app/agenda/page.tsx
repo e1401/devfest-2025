@@ -11,7 +11,7 @@ export default async function Agenda() {
         DevFest Zagreb 2023 Agenda
       </h1>
       <h2 className="mt-3 mb-6 text-2xl font-bold">
-        Want to know more about talks? Check &nbsp;
+        Want to know more about talks and speakers? Check &nbsp;
         <Link href={'/speakers'}>
           <span className="underline">here</span>
         </Link>

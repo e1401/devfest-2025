@@ -32,8 +32,8 @@
     },
     {
       "time": "12:30",
-      "name": "Brando Koch",
-      "talkName": "Generative AI - What is it? How it works? Why it matters?"
+      "name": "Henry Lim",
+      "talkName": "Chrome DevTools LIVE LIVE LIVE"
     },
     {
       "time": "13:00",
@@ -47,8 +47,8 @@
     },
     {
       "time": "14:30",
-      "name": "Henry Lim",
-      "talkName": "Chrome DevTools LIVE LIVE LIVE"
+      "name": "Filip Babić",
+      "talkName": "Jetpack Compose Customization"
     },
     {
       "time": "15:00",
@@ -64,11 +64,6 @@
       "time": "16:00",
       "name": "Nicolas Frizzarin",
       "talkName": "The digital age of web hydrations"
-    },
-    {
-      "time": "16:45",
-      "name": "Artem Nikulchenko",
-      "talkName": "Hidden Gems of BigQuery"
     },
     {
       "time": "21:00",
