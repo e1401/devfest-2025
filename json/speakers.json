@@ -8,6 +8,22 @@
       "talkInfo": "In this panel discussion, we will cover important topics, such as: How is management different today, vs 5 or 10 years ago?, Should a manager also be a leader and a coach?, Dealing with change in companies, The Difficulty of keping people around and many more!",
       "imgSrc": "/speaker-photos/Filip.jpeg"
     },
+    {
+      "time": "Panel",
+      "name": "Nikola Brežnjak",
+      "info": "VP of Engineering @ Teltech",
+      "talkName": "Management panel discussion",
+      "talkInfo": "I'm an engineer at heart and a jack of all trades kind of guy. For the last handful of years, I've been working at TelTech where we make innovative communications apps. Over the years  grew my team (40+ now) and am currently serving as a VP of Engineering responsible for our Mobile, Backend, Telco, Data, and QA departments. Nowadays I get my energy from seeing the people I lead perform on a world-class scale",
+      "imgSrc": "/speaker-photos/Nikola.jpg"
+    },
+    {
+      "time": "Panel",
+      "name": "Ian Rumac",
+      "info": "All-kinds-of-software developer",
+      "talkName": "Management panel discussion",
+      "talkInfo": "A software consultant and developer, AI enthusiast, artist. Ian has been professionally writing software for the last 10 years, building applications for both small startups, large corporations and everything in between. When not writing code, he's talking about it, be it on meetups, online or among policy makers. ",
+      "imgSrc": "/speaker-photos/Ian.png"
+    },
 
     {
       "time": "Panel",
