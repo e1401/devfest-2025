@@ -91,7 +91,7 @@ export default function MainPage() {
           <h2 className="text-center text-black mb-8 w-full lg:text-3xl font-bold">
             Sponsored by:
           </h2>
-          <div className="grid grid-cols-3 items-center gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-12">
             <Image
               className="rounded-2xl"
               src={'/sponsors/01--epam-logo.svg'}
