@@ -136,7 +136,7 @@ export default function MainPage() {
             ></Image>
             <Image
               className="rounded-2xl"
-              src={'/sponsors/07--SciPly-logo.svg'}
+              src={'/sponsors/SciPly_logo.png'}
               alt={'SciPly Logo'}
               height={150}
               width={150}
