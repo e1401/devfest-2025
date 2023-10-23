@@ -86,8 +86,73 @@ export default function MainPage() {
             </div>
           </div>
         </div>
-        <div className="p-6 max-w-[1020px] rounded-2xl shadow-lg bg-background/70">
-          <h2 className="text-center mb-8 w-full lg:text-3xl font-bold">
+
+        <div className="p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white">
+          <h2 className="text-center text-black mb-8 w-full lg:text-3xl font-bold">
+            Sponsored by:
+          </h2>
+          <div className="grid grid-cols-3 items-center gap-12">
+            <Image
+              className="rounded-2xl"
+              src={'/sponsors/01--epam-logo.svg'}
+              alt={'Epam Logo'}
+              height={150}
+              width={150}
+            ></Image>
+            <Image
+              className="rounded-2xl"
+              src={'/sponsors/02--A1-logo.svg'}
+              alt={'A1 Logo'}
+              height={150}
+              width={150}
+            ></Image>
+            <Image
+              className="rounded-2xl"
+              src={'/sponsors/03--wespa-logo.svg'}
+              alt={'Wespa Logo'}
+              height={150}
+              width={150}
+            ></Image>
+            <Image
+              className="rounded-2xl"
+              src={'/sponsors/04--teltech-logo.svg'}
+              alt={'Teltech Logo'}
+              height={150}
+              width={150}
+            ></Image>
+            <Image
+              className="rounded-2xl"
+              src={'/sponsors/05--keeper-solutions-logo.svg'}
+              alt={'Keeper solutions Logo'}
+              height={150}
+              width={150}
+            ></Image>
+            <Image
+              className="rounded-2xl"
+              src={'/sponsors/06--kapronca-logo.svg'}
+              alt={'Kapronca Logo'}
+              height={150}
+              width={150}
+            ></Image>
+            <Image
+              className="rounded-2xl"
+              src={'/sponsors/07--SciPly-logo.svg'}
+              alt={'SciPly Logo'}
+              height={150}
+              width={150}
+            ></Image>
+            <Image
+              className="rounded-2xl"
+              src={'/sponsors/08--Arilus-logo.svg'}
+              alt={'Arilus Logo'}
+              height={150}
+              width={150}
+            ></Image>
+          </div>
+        </div>
+
+        <div className="p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white">
+          <h2 className="text-center mb-8 w-full lg:text-3xl font-bold text-black">
             Organized by:
           </h2>
           <div className="flex items-center gap-x-5">
