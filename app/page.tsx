@@ -148,6 +148,13 @@ export default function MainPage() {
               height={150}
               width={150}
             ></Image>
+            <Image
+              className="rounded-2xl"
+              src={'/sponsors/09--Kodeco-logo.webp'}
+              alt={'Kodeco Logo'}
+              height={150}
+              width={150}
+            ></Image>
           </div>
         </div>
 
