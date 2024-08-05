@@ -31,7 +31,7 @@ export function SiteHeader() {
               </Button>
             </Link>
             <Link
-              href="https://www.entrio.hr/event/devfest-2023-14840"
+              href="https://www.entrio.hr/event/devfest-2024-18712"
               target="_blank"
             >
               <Button variant={'outline'}>
