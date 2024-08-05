@@ -1,13 +1,13 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { ThemeProvider } from '@/components/theme-provider';
-import { Inter } from 'next/font/google';
-import { SiteFooter } from '@/components/site-footer';
-import { SiteHeader } from '@/components/site-header';
-import { cn } from '@/lib/utils';
-import { siteConfig } from '@/config/site';
+import "./globals.css";
+import type { Metadata } from "next";
+import { ThemeProvider } from "@/components/theme-provider";
+import { Inter } from "next/font/google";
+import { SiteFooter } from "@/components/site-footer";
+import { SiteHeader } from "@/components/site-header";
+import { cn } from "@/lib/utils";
+import { siteConfig } from "@/config/site";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
@@ -15,20 +15,20 @@ export const metadata: Metadata = {
     template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: ['devfest', 'gdg', 'zagreb'],
+  keywords: ["devfest", "gdg", "zagreb"],
   authors: [
     {
-      name: 'Boris Martinovic',
-      url: 'https://martinovic.dev',
+      name: "Boris Martinovic",
+      url: "https://martinovic.dev",
     },
   ],
-  creator: 'martinovicdev',
+  creator: "martinovicdev",
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
   icons: {
-    icon: '/GDG-logo.png',
+    icon: "/GDG-logo.png",
   },
 };
 
@@ -41,7 +41,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          'flex flex-col justify-between bg-gradient-to-br from-slate-200/0 via-slate-200 slate-200/0 dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950',
+          "flex flex-col justify-between  dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-950",
           inter.className
         )}
       >

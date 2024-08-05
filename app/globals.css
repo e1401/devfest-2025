@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 0 0% 93.3%;
     --foreground: 240 10% 3.9%;
 
     --muted: 240 4.8% 95.9%;
@@ -72,13 +72,13 @@
   .bg-devfest-dark {
     width: 500px;
     height: 300px;
-    background-image: url('/devfest-dark.png');
+    background-image: url("/devfest-dark.png");
     background-size: contain;
   }
   .bg-devfest-light {
     width: 500px;
     height: 300px;
-    background-image: url('/devfest-light.png');
+    background-image: url("/devfest-light.png");
     background-size: contain;
   }
   * {
