@@ -10,22 +10,6 @@
         },
         {
             "type": "Talk",
-            "speakerName": "Jason Quek",
-            "speakerInfo": "Global CTO of Devoteam GCloud",
-            "name": "Inference with LLMs on Cloud Run serverless GPU",
-            "info": "Modern Machine Learning Ops always relied on Kubernetes together with a framework with Kubeflow or MLFLow to be able to provision GPUs for inference or training on nodes. With Cloud Run GPUs, I will demo how to set up via terraform an LLM inference and training environment for use and go through cost calculations for different usage scenarios.",
-            "imgSrc": "/speaker-photos/2024/jason-quek.jpg"
-        },
-        {
-            "type": "Talk",
-            "speakerName": "Anuradha Kumari",
-            "speakerInfo": "Senior frontend developer at VodafoneZiggo",
-            "name": "Unleashing the Power of Chrome devtools for Web Accessibility Testing",
-            "info": "When it comes to testing for accessibility of our web apps, most of us would have used Chrome Lighthouse to generate a report and use the results to improve the accessibility of our web apps. However, that is not the only way to test for accessibility, and those tests can only detect a subset of issues. Do you know, there are many other ways in which we can test for accessibility using those same dev tools?\n\nIn this talk, we will delve beyond the conventional use of Chrome Lighthouse and uncover several alternative methods within the developer tools to test web accessibility. We will explore techniques such as inspecting the accessibility tree, gaining insights into ARIA attributes, emulating various vision disabilities, and more.\n\nSo, join me in this session, where we will unlock the potential of dev tools to unveil a diverse range of accessibility issues. Let's all learn together and improve how we test for web accessibility, and make the web inclusive for all our users.",
-            "imgSrc": "/speaker-photos/2024/anuradha-kumari.jpg"
-        },
-        {
-            "type": "Talk",
             "speakerName": "Ankur Roy",
             "speakerInfo": "Solutions Architect at Online Partner AB",
             "name": "Understand how to use and reuse GCP's Cloud Foundation Fabric templates for quick and replicable deployments",
@@ -94,55 +78,31 @@
             "speakerInfo": "Senior software engineer at mStart d.o.o.",
             "name": "Programming == wilderness survival",
             "info": "Programming and wilderness survival, sound like two completely different terms or maybe not? A travel story about 6 months journey to the Western Sahara passing more than 5000 km by foot, car and bus. Living in nature and visiting the Sahrawi tribe taught me many skills that are very useful in application development. In this presentation we will discover why is a software development a lot like survival in the wild.",
-            "imgSrc": "/speaker-photos/2024/lada-kovjanic.jpg"
+            "imgSrc": "/speaker-photos/2024/lada-kovjanic.jpeg"
         },
         {
             "type": "Talk",
             "speakerName": "Emma Saroyan",
-            "speakerInfo": "Developer Advocate, Book Author",
+            "speakerInfo": "WTM Ambassador",
             "name": "AI ruined my code: My journey with ChatGPT",
-            "info": "Are we at one of the biggest inflection points in human history, given the disruption that Generative AI is creating? But what is Generative AI and why is it impacting the world in increasingly significant ways? I, the co-author of the book “Generative AI for Web Development: Building Web Applications Powered by OpenAI APIs and Next.js” soon to be published by Apress, will share with you what I learned about GenAI by writing a book about it.\n\nIn my talk, I will present, through practical examples, the pros and cons of the latest prompting techniques for generating code to build web apps, powered by OpenAI’s ChatGPT including:\n\nGenerating web apps with Next.js (Building a Language Learning App)\nThe legal and security issues you should be aware of including deploying or integrating web applications, sending sensitive data and copyright laws for commercial purposes\nActionable strategies like best practices and tips to get around the limitations of ChatGPT\n\nDepending on the session length, I will either keep it high-level or give hands-on experience with the technology.",
+            "info": "What is Generative AI and why is it impacting the world in increasingly significant ways? Emma, the co-author of the book “Generative AI for Web Development: Building Web Applications Powered by OpenAI APIs and Next.js”, will share with you what I learned about GenAI by writing a book about it. In my talk, I will present an example with Next.js, and discuss best practices and actionable strategies to get around the limitations of ChatGPT.",
             "imgSrc": "/speaker-photos/2024/emma-saroyan.jpg"
         },
         {
             "type": "Talk",
-            "speakerName": "Dominik Šimoník",
-            "speakerInfo": "Software Engineer at Very Good Ventures",
-            "name": "To be announced",
-            "info": "Details coming soon 🤞",
-            "imgSrc": "/speaker-photos/2024/dominik-simonik.jpg"
-        },
-        {
-            "type": "Talk",
-            "speakerName": "Imran us Salam Mian",
-            "speakerInfo": "Machine Learning Engineer at Workwise",
-            "name": "Ray on Vertex AI",
-            "info": "What is Ray?\n\nA multiprocessing tool for large-scale training pipelines or even normal Python code. We review the details of what Ray is, and how to use it. And the similarities between Ray and Spark.",
-            "imgSrc": "/speaker-photos/2024/imran-us-salam-mian.jpg"
-        },
-        {
-            "type": "Talk",
-            "speakerName": "Seifeddine Mansri",
-            "speakerInfo": "Cloud CTO at Sfeir",
+            "speakerName": "Seifeddin Mansri",
+            "speakerInfo": "Cloud CTO at SFEIR | GDE",
             "name": "FinOps: A New Hope",
             "info": "Migration to the cloud has changed the way infrastructure resources are consumed, forcing businesses to adopt a more flexible but sometimes uncertain consumption model.\n\nIn fact, the bill at the end of the month is never the same since you only pay for what you have consumed!\n\nDon't panic, this presentation is here to introduce you to FinOps practices which offer an effective solution for managing this new mode of consumption and optimizing value creation in a Google Cloud environment.",
-            "imgSrc": "/speaker-photos/2024/seifeddine-mansri.jpg"
-        },
-        {
-            "type": "Talk",
-            "speakerName": "Sachin Kumar",
-            "speakerInfo": "Chief Technology Officer at TupeloLife",
-            "name": "Building Powerful AI Agents using Vertex AI Agent Builder",
-            "info": "In this session, you will learn how to build your own production ready Gen AI Agents for your website or business using Google's latest Vertex AI Agent Builder. The session also covers step by step instructions on how to get started and show a real life demo of the implementation from start to finish. At the end of the session, you will be able to build your own GenAI chatbots/voicebots or AI agents and integrate with your website.",
-            "imgSrc": "/speaker-photos/2024/sachin-kumar.jpg"
+            "imgSrc": "/speaker-photos/2024/seifeddin-mansri.jpeg"
         },
         {
             "type": "Talk",
             "speakerName": "Theofanis Prodromou",
-            "speakerInfo": "Front-End Lead at Architects",
+            "speakerInfo": "Senior Angular Developer at ASI",
             "name": "Angular's Renaissance: Exploring the Latest Gems",
             "info": "Unlock the power of Angular with an in-depth exploration of its latest features and improvements. Discover how these groundbreaking features empower you to build exceptional web applications with speed, efficiency, and unparalleled user experience, ensuring your applications remain at the forefront of innovation.",
-            "imgSrc": "/speaker-photos/2024/theofanis-prodromou.jpg"
+            "imgSrc": "/speaker-photos/2024/theofanis-prodromou.png"
         },
         {
             "type": "Talk",
