@@ -85,7 +85,7 @@
             "speakerName": "Emma Saroyan",
             "speakerInfo": "WTM Ambassador",
             "name": "AI ruined my code: My journey with ChatGPT",
-            "info": "What is Generative AI and why is it impacting the world in increasingly significant ways? Emma, the co-author of the book “Generative AI for Web Development: Building Web Applications Powered by OpenAI APIs and Next.js”, will share with you what I learned about GenAI by writing a book about it. In my talk, I will present an example with Next.js, and discuss best practices and actionable strategies to get around the limitations of ChatGPT.",
+            "info": "What is Generative AI and why is it impacting the world in increasingly significant ways? Emma, the co-author of the book “Generative AI for Web Development: Building Web Applications Powered by OpenAI APIs and Next.js”, will share with you what she learned about GenAI by writing a book about it. In this talk, she will present an example with Next.js, and discuss best practices and actionable strategies to get around the limitations of ChatGPT.",
             "imgSrc": "/speaker-photos/2024/emma-saroyan.jpg"
         },
         {
@@ -127,6 +127,22 @@
             "name": "Learn data engineering -- by \"stealing\" government data",
             "info": "During this hands-on session listeners will get a feel of what a data engineers work looks like by building a complete data pipeline using government data.\n\nWe'll use the Croatian cadastre, an open dataset of land ownership to guide us through the four stages of the data lifecycle: ingestion, storage, processing and visualization.\n\nBy the end of the session, listeners will learn how to:\n1) Automate downloading the public dataset\n2) Store data into BigQuery\n3) Clean up and process large datasets in BigQuery\n4) Visualize the data in an interactive dashboard using Looker Studio.\n\nFinally, these four steps will be connected into a data pipeline orchestrated using Apache Airflow on Cloud Composer.",
             "imgSrc": "/speaker-photos/2024/josip-bartulovic.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Jasper Duizendstra",
+            "speakerInfo": "Google Cloud Architect | Workspace GDE",
+            "name": "Building a DMS on top of Google Drive",
+            "info": "In this session, Jasper will showcase a real-world implementation of a Document Management System (DMS) built on top of Google Drive using Apps Script and custom Add-ons. The system allows document editors to manage and maintain content efficiently, while published documents are made accessible through a Google Chat bot for end users. This solution leverages Google Workspace’s native integration capabilities and APIs to automate document workflows, streamline collaboration, and ensure proper document lifecycle management. The result is a robust and scalable DMS that meets the needs of dynamic content environments.",
+            "imgSrc": "/speaker-photos/2024/jasper-duizendstra.jpeg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Dominik Šimoník",
+            "speakerInfo": "Freelance Flutter Developer",
+            "name": "Unlocking Innovation with Firebase GenKit",
+            "info": "In this talk, we'll explore Firebase GenKit, focusing on how structured data generation can streamline app development and enhance user experiences. The session will feature interactive demos that highlight GenKit’s capabilities in generating structured data for different use cases, providing practical insights and tips for integrating GenKit into your app development workflow effectively.",
+            "imgSrc": "/speaker-photos/2024/dominik-simonik.jpg"
         }
     ]
 }

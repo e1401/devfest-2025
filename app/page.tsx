@@ -14,7 +14,7 @@ import ImageGallery from '@/components/image-gallery';
 
 const MainPage = () => {
     const isAgendaAvailable = false;
-    const isSpeakersAvailable = false;
+    const isSpeakersAvailable = true;
 
     return (
         <div className='container flex items-center justify-center px-4 mx-auto'>
