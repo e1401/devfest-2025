@@ -26,11 +26,11 @@
         },
         {
             "type": "Talk",
-            "speakerName": "Vasudev Maduri",
-            "speakerInfo": "Staff Data Engineer at Admiral Group",
-            "name": "Unleashing the Power of Gemma: From Cloud to Edge",
-            "info": "Gemma, Google’s new family of lightweight, state-of-the-art open models. Built on the same research and technology as the groundbreaking Gemini models, Gemma empowers developers to create innovative applications across various platforms. We’ll cover the types of models available and how to customize them to tune for new tasks.\n\nThis session will explore the multifaceted capabilities of Gemma models, providing practical insights, demos, and code demonstrations for:\n\nKaggle: Building engaging chat applications using the Keras API and the Kaggle Model Hub.\n\nHugging Face: Leveraging the open collaboration between Google and Hugging Face for seamless integration and deployment.\n\nMobile: Experimenting with Gemma on-device using MediaPipe and TensorFlow Lite for cross-platform compatibility.\n\nLocal Machines: Running Gemma efficiently on laptops with Llama.cpp and quantized models.\n\nVertex AI: Streamlining AI development and deployment with Vertex AI’s comprehensive platform.\n\nWhether you’re a seasoned AI developer or just starting, this session will equip you with the knowledge and tools to harness the full potential of Gemma models. The session will conclude with a series of live demos showcasing the practical applications of these technologies.",
-            "imgSrc": "/speaker-photos/2024/vasudev-maduri.jpg"
+            "speakerName": "Berislav Grgičak",
+            "speakerInfo": "WordPress contributor",
+            "name": "WordPress Playground",
+            "info": "WordPress traditionally requires a LAMP stack, but not anymore. Would you like to learn how to run WordPress anywhere? This is a story on how we run WordPress in WebAssembly using WordPress Playground. I would like to provide an overview of the technical stack and explain how to start using WebAssembly",
+            "imgSrc": "/speaker-photos/2024/berislav-grgicak.png"
         },
         {
             "type": "Talk",
@@ -98,11 +98,11 @@
         },
         {
             "type": "Talk",
-            "speakerName": "Theofanis Prodromou",
-            "speakerInfo": "Senior Angular Developer at ASI",
-            "name": "Angular's Renaissance: Exploring the Latest Gems",
-            "info": "Unlock the power of Angular with an in-depth exploration of its latest features and improvements. Discover how these groundbreaking features empower you to build exceptional web applications with speed, efficiency, and unparalleled user experience, ensuring your applications remain at the forefront of innovation.",
-            "imgSrc": "/speaker-photos/2024/theofanis-prodromou.png"
+            "speakerName": "Đuro Fusić",
+            "speakerInfo": "Senior Frontend Developer at Syskit d.o.o.",
+            "name": "Improving your web applications by using Google Lighthouse",
+            "info": "Google Lighthouse is an open-source, automated tool for improving the performance, quality and correctness of your web applications. In the talk we'll go more into details and will see how you can implement Google Lighthouse in your development workflow.",
+            "imgSrc": "/speaker-photos/2024/duro-fusic.jpg"
         },
         {
             "type": "Talk",
@@ -143,6 +143,14 @@
             "name": "Unlocking Innovation with Firebase GenKit",
             "info": "In this talk, we'll explore Firebase GenKit, focusing on how structured data generation can streamline app development and enhance user experiences. The session will feature interactive demos that highlight GenKit’s capabilities in generating structured data for different use cases, providing practical insights and tips for integrating GenKit into your app development workflow effectively.",
             "imgSrc": "/speaker-photos/2024/dominik-simonik.jpg"
+        },
+        {
+            "type": "Talk",
+            "speakerName": "Abubakar Siddiq Ango",
+            "speakerInfo": "Cloud GDE",
+            "name": "Hey AI, Did I hear Risks?",
+            "info": "AI is now everywhere, and every technology service provider is jumping on the bandwagon to sell AI features in one form or another. It goes beyond technology tools; AI is now integrated into many parts of society. All these bring risks like bias, privacy concerns, lack of transparency, unintended consequences, and AI-specific risks like Prompt subversion, Hallucinations, Model Backdoor, AI infrastructure, and Model weaponization. Ethical development and deployment of AI systems are crucial for building public trust and minimizing potential harm. In this talk, Abubakar will share how we can mitigate risks in AI by adopting secure AI best practices and how the Secure AI framework (SAIF) can help.",
+            "imgSrc": "/speaker-photos/2024/abubakar-siddiq-ango.jpg"
         }
     ]
 }
