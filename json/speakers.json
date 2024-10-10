@@ -28,8 +28,8 @@
             "type": "Talk",
             "speakerName": "Berislav Grgičak",
             "speakerInfo": "WordPress contributor",
-            "name": "WordPress Playground",
-            "info": "WordPress traditionally requires a LAMP stack, but not anymore. Would you like to learn how to run WordPress anywhere? This is a story on how we run WordPress in WebAssembly using WordPress Playground. I would like to provide an overview of the technical stack and explain how to start using WebAssembly",
+            "name": "Let's build a LAMP stack in the browser and run WordPress without a server",
+            "info": "Learn what it takes to build a LAMP stack alternative in JavaScript using modern features like WebAssembly. We will explore how WordPress Playground runs WordPress in a browser and Node.js without a server even while offline.",
             "imgSrc": "/speaker-photos/2024/berislav-grgicak.png"
         },
         {
