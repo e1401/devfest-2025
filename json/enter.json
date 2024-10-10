@@ -110,7 +110,7 @@
       "time": "16:30",
       "type": "Talk",
       "speakerName": "Abubakar Siddiq Ango",
-      "speakerInfo": "Cloud GDE",
+      "speakerInfo": "Developer Advocate at GitLab",
       "name": "Hey AI, Did I hear Risks?",
       "info": "AI is now everywhere, and every technology service provider is jumping on the bandwagon to sell AI features in one form or another. It goes beyond technology tools; AI is now integrated into many parts of society. All these bring risks like bias, privacy concerns, lack of transparency, unintended consequences, and AI-specific risks like Prompt subversion, Hallucinations, Model Backdoor, AI infrastructure, and Model weaponization. Ethical development and deployment of AI systems are crucial for building public trust and minimizing potential harm. In this talk, Abubakar will share how we can mitigate risks in AI by adopting secure AI best practices and how the Secure AI framework (SAIF) can help.",
       "imgSrc": "/speaker-photos/2024/abubakar-siddiq-ango.jpg"
