@@ -8,7 +8,7 @@ export default async function Agenda() {
     return (
         <div className='container flex flex-col items-center px-4 p-10'>
             <h1 className='mt-3 mb-6 text-4xl font-bold'>
-                DevFest Zagreb 2023 Agenda
+                DevFest Zagreb 2024 Agenda
             </h1>
             <h2 className='mt-3 mb-6 text-2xl font-bold'>
                 Want to know more about talks and speakers? Check &nbsp;
