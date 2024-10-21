@@ -2,12 +2,10 @@
     "talks": [
         {
             "time": "09:00",
-
             "name": "Registration and networking"
         },
         {
             "time": "09:45",
-
             "name": "Introduction and welcome"
         },
         {
@@ -31,10 +29,10 @@
         {
             "time": "11:00",
             "speakerName": "",
-            "name": "Coffee break ☕"
+            "name": "Short break"
         },
         {
-            "time": "11:30",
+            "time": "11:15",
             "type": "Talk",
             "speakerName": "Marton Kodok",
             "speakerInfo": "Senior Software Architect at REEA.net",
@@ -43,13 +41,18 @@
             "imgSrc": "/speaker-photos/2024/marton-kodok.jpg"
         },
         {
-            "time": "12:00",
+            "time": "11:45",
             "type": "Talk",
             "speakerName": "Ankur Roy",
             "speakerInfo": "Solutions Architect at Online Partner AB",
             "name": "Understand how to use and reuse GCP's Cloud Foundation Fabric templates for quick and replicable deployments",
             "info": "Cloud Foundation Fabric (https://github.com/GoogleCloudPlatform/cloud-foundation-fabric) is a set of Terraform templates provided by GCP to facilitate the deployment and re-deployment of GCP resources quickly and in a standardized manner.\n\nIn this session, we will take a look at some of these templates, look into how they work, and deploy a couple of them in a demo environment.",
             "imgSrc": "/speaker-photos/2024/ankur-roy.jpg"
+        },
+        {
+            "time": "12:15",
+            "speakerName": "",
+            "name": "Short break"
         },
         {
             "time": "12:30",
@@ -62,11 +65,20 @@
         },
         {
             "time": "13:00",
+            "type": "Talk",
+            "speakerName": "Dominik Šimoník",
+            "speakerInfo": "Freelance Flutter Developer",
+            "name": "Unlocking Innovation with Firebase GenKit",
+            "info": "In this talk, we'll explore Firebase GenKit, focusing on how structured data generation can streamline app development and enhance user experiences. The session will feature interactive demos that highlight GenKit’s capabilities in generating structured data for different use cases, providing practical insights and tips for integrating GenKit into your app development workflow effectively.",
+            "imgSrc": "/speaker-photos/2024/dominik-simonik.jpg"
+        },
+        {
+            "time": "13:30",
             "speakerName": "",
             "name": "Lunch and networking break 🍴 🛜"
         },
         {
-            "time": "14:00",
+            "time": "14:30",
             "type": "Talk",
             "speakerName": "Emma Saroyan",
             "speakerInfo": "WTM Ambassador",
@@ -75,7 +87,7 @@
             "imgSrc": "/speaker-photos/2024/emma-saroyan.jpg"
         },
         {
-            "time": "14:30",
+            "time": "15:00",
             "type": "Talk",
             "speakerName": "Mangirdas Kazlauskas",
             "speakerInfo": "Mobile Tech Lead at Billo",
@@ -84,18 +96,9 @@
             "imgSrc": "/speaker-photos/2024/mangirdas-kazlauskas.jpg"
         },
         {
-            "time": "15:00",
+            "time": "15:30",
             "speakerName": "",
             "name": "Coffee break ☕"
-        },
-        {
-            "time": "15:30",
-            "type": "Talk",
-            "speakerName": "Dominik Šimoník",
-            "speakerInfo": "Freelance Flutter Developer",
-            "name": "Unlocking Innovation with Firebase GenKit",
-            "info": "In this talk, we'll explore Firebase GenKit, focusing on how structured data generation can streamline app development and enhance user experiences. The session will feature interactive demos that highlight GenKit’s capabilities in generating structured data for different use cases, providing practical insights and tips for integrating GenKit into your app development workflow effectively.",
-            "imgSrc": "/speaker-photos/2024/dominik-simonik.jpg"
         },
         {
             "time": "16:00",
@@ -121,7 +124,7 @@
             "name": "Closing ceremony, giveaway"
         },
         {
-            "time": "17:15",
+            "time": "17:30",
             "speakerName": "",
             "name": "Networking, fun activities, after-party 🥳"
         }

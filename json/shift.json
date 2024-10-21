@@ -26,10 +26,10 @@
         {
             "time": "11:00",
             "speakerName": "",
-            "name": "Coffee break ☕"
+            "name": "Short break"
         },
         {
-            "time": "11:30",
+            "time": "11:15",
             "type": "Talk",
             "speakerName": "Ian Rumac",
             "speakerInfo": "Software developer & architect",
@@ -38,7 +38,7 @@
             "imgSrc": "/speaker-photos/Ian.png"
         },
         {
-            "time": "12:00",
+            "time": "11:45",
             "type": "Talk",
             "speakerName": "Berislav Grgičak",
             "speakerInfo": "WordPress contributor",
@@ -47,7 +47,21 @@
             "imgSrc": "/speaker-photos/2024/berislav-grgicak.png"
         },
         {
+            "time": "12:15",
+            "speakerName": "",
+            "name": "Short break"
+        },
+        {
             "time": "12:30",
+            "type": "Talk",
+            "speakerName": "Anuradha Kumari",
+            "speakerInfo": "Senior frontend developer at VodafoneZiggo",
+            "name": "Unleashing the Power of Chrome devtools for Web Accessibility Testing",
+            "info": "When it comes to testing for accessibility of our web apps, most of us would have used Chrome Lighthouse to generate a report and use the results to improve the accessibility of our web apps. However, that is not the only way to test for accessibility, and those tests can only detect a subset of issues. Do you know, there are many other ways in which we can test for accessibility using those same dev tools? In this talk, we will delve beyond the conventional use of Chrome Lighthouse and uncover several alternative methods within the developer tools to test web accessibility. We will explore techniques such as inspecting the accessibility tree, gaining insights into ARIA attributes, emulating various vision disabilities, and more. So, join me in this session, where we will unlock the potential of dev tools to unveil a diverse range of accessibility issues. Let's all learn together and improve how we test for web accessibility, and make the web inclusive for all our users.",
+            "imgSrc": "/speaker-photos/2024/anuradha-kumari.jpeg"
+        },
+        {
+            "time": "13:00",
             "type": "Talk",
             "speakerName": "Đuro Fusić",
             "speakerInfo": "Senior Frontend Developer at Syskit d.o.o.",
@@ -56,12 +70,12 @@
             "imgSrc": "/speaker-photos/2024/duro-fusic.jpg"
         },
         {
-            "time": "13:00",
+            "time": "13:30",
             "speakerName": "",
             "name": "Lunch and networking break 🍴 🛜"
         },
         {
-            "time": "14:00",
+            "time": "14:30",
             "type": "Talk",
             "speakerName": "Raouf Rahiche",
             "speakerInfo": "GDE for Flutter/Dart",
@@ -70,7 +84,7 @@
             "imgSrc": "/speaker-photos/2024/raouf-rahiche.png"
         },
         {
-            "time": "14:30",
+            "time": "15:00",
             "type": "Talk",
             "speakerName": "Jasper Duizendstra",
             "speakerInfo": "Google Cloud Architect | Workspace GDE",
@@ -79,12 +93,12 @@
             "imgSrc": "/speaker-photos/2024/jasper-duizendstra.jpeg"
         },
         {
-            "time": "15:00",
+            "time": "15:30",
             "speakerName": "",
             "name": "Coffee break ☕"
         },
         {
-            "time": "15:30",
+            "time": "16:00",
             "type": "Talk",
             "speakerName": "Dinko Marinac",
             "speakerInfo": "Self-employed at MOBILAPP Solutions d.o.o.",
@@ -93,7 +107,7 @@
             "imgSrc": "/speaker-photos/2024/dinko-marinac.jpg"
         },
         {
-            "time": "16:00",
+            "time": "16:30",
             "type": "Talk",
             "speakerName": "Josip Krnjić",
             "speakerInfo": "Flutter Freelance/Consultant",
