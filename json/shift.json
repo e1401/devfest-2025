@@ -54,20 +54,20 @@
         {
             "time": "12:30",
             "type": "Talk",
-            "speakerName": "Anuradha Kumari",
-            "speakerInfo": "Senior frontend developer at VodafoneZiggo",
-            "name": "Unleashing the Power of Chrome devtools for Web Accessibility Testing",
-            "info": "When it comes to testing for accessibility of our web apps, most of us would have used Chrome Lighthouse to generate a report and use the results to improve the accessibility of our web apps. However, that is not the only way to test for accessibility, and those tests can only detect a subset of issues. Do you know, there are many other ways in which we can test for accessibility using those same dev tools? In this talk, we will delve beyond the conventional use of Chrome Lighthouse and uncover several alternative methods within the developer tools to test web accessibility. We will explore techniques such as inspecting the accessibility tree, gaining insights into ARIA attributes, emulating various vision disabilities, and more. So, join me in this session, where we will unlock the potential of dev tools to unveil a diverse range of accessibility issues. Let's all learn together and improve how we test for web accessibility, and make the web inclusive for all our users.",
-            "imgSrc": "/speaker-photos/2024/anuradha-kumari.jpeg"
+            "speakerName": "Josip Krnjić",
+            "speakerInfo": "Flutter Freelance/Consultant",
+            "name": "Become a Full Full-stack Developer",
+            "info": "It's not a typo. You heard about Full-Stack developers, but what about Full \"Full-Stack developers\" using power of Flutter and Dart. I'll cover how can Flutter and Dart work on many different platforms. So you can be like a one-man army, building apps for iOS, Android, Web, desktops, embedded and server.",
+            "imgSrc": "/speaker-photos/2024/josip-krnjic.png"
         },
         {
             "time": "13:00",
             "type": "Talk",
-            "speakerName": "Đuro Fusić",
-            "speakerInfo": "Senior Frontend Developer at Syskit d.o.o.",
-            "name": "Improving your web applications by using Google Lighthouse",
-            "info": "Google Lighthouse is an open-source, automated tool for improving the performance, quality and correctness of your web applications. In the talk we'll go more into details and will see how you can implement Google Lighthouse in your development workflow.",
-            "imgSrc": "/speaker-photos/2024/duro-fusic.jpg"
+            "speakerName": "Dinko Marinac",
+            "speakerInfo": "Self-employed at MOBILAPP Solutions d.o.o.",
+            "name": "Going Serverless with Dart",
+            "info": "You will learn how to write and deploy Dart logic in a serverless fashion using AWS and GCP.",
+            "imgSrc": "/speaker-photos/2024/dinko-marinac.jpg"
         },
         {
             "time": "13:30",
@@ -100,20 +100,20 @@
         {
             "time": "16:00",
             "type": "Talk",
-            "speakerName": "Dinko Marinac",
-            "speakerInfo": "Self-employed at MOBILAPP Solutions d.o.o.",
-            "name": "Going Serverless with Dart",
-            "info": "You will learn how to write and deploy Dart logic in a serverless fashion using AWS and GCP.",
-            "imgSrc": "/speaker-photos/2024/dinko-marinac.jpg"
+            "speakerName": "Anuradha Kumari",
+            "speakerInfo": "Senior frontend developer at VodafoneZiggo",
+            "name": "Unleashing the Power of Chrome devtools for Web Accessibility Testing",
+            "info": "When it comes to testing for accessibility of our web apps, most of us would have used Chrome Lighthouse to generate a report and use the results to improve the accessibility of our web apps. However, that is not the only way to test for accessibility, and those tests can only detect a subset of issues. Do you know, there are many other ways in which we can test for accessibility using those same dev tools? In this talk, we will delve beyond the conventional use of Chrome Lighthouse and uncover several alternative methods within the developer tools to test web accessibility. We will explore techniques such as inspecting the accessibility tree, gaining insights into ARIA attributes, emulating various vision disabilities, and more. So, join me in this session, where we will unlock the potential of dev tools to unveil a diverse range of accessibility issues. Let's all learn together and improve how we test for web accessibility, and make the web inclusive for all our users.",
+            "imgSrc": "/speaker-photos/2024/anuradha-kumari.jpeg"
         },
         {
             "time": "16:30",
             "type": "Talk",
-            "speakerName": "Josip Krnjić",
-            "speakerInfo": "Flutter Freelance/Consultant",
-            "name": "Become a Full Full-stack Developer",
-            "info": "It's not a typo. You heard about Full-Stack developers, but what about Full \"Full-Stack developers\" using power of Flutter and Dart. I'll cover how can Flutter and Dart work on many different platforms. So you can be like a one-man army, building apps for iOS, Android, Web, desktops, embedded and server.",
-            "imgSrc": "/speaker-photos/2024/josip-krnjic.png"
+            "speakerName": "Đuro Fusić",
+            "speakerInfo": "Senior Frontend Developer at Syskit d.o.o.",
+            "name": "Improving your web applications by using Google Lighthouse",
+            "info": "Google Lighthouse is an open-source, automated tool for improving the performance, quality and correctness of your web applications. In the talk we'll go more into details and will see how you can implement Google Lighthouse in your development workflow.",
+            "imgSrc": "/speaker-photos/2024/duro-fusic.jpg"
         }
     ]
 }
