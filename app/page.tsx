@@ -236,6 +236,15 @@ const MainPage = () => {
                                 width={120}
                             />
                         </Link>
+                        <Link href='https://www.uber.com/hr/hr/' target='_blank'>
+                            <Image
+                                className='rounded'
+                                src={'/partners/uber/uber_logo.png'}
+                                alt={'Uber'}
+                                height={120}
+                                width={120}
+                            />
+                        </Link>
                     </div>
                 </div>
 
