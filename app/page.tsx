@@ -242,9 +242,9 @@ const MainPage = () => {
                                 </p>
                                 <Button 
                                     onClick={openModal}
-                                    className='w-full max-w-md h-16 rounded-2xl text-xl font-semibold bg-gray-800 dark:text-gray-200 hover:from-purple-700 hover:to-blue-700 text-white shadow-2xl transform transition-all duration-300 hover:scale-105'
+                                    className='w-full max-w-md h-16 rounded-2xl text-xl font-semibold bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white shadow-2xl transform transition-all duration-300 hover:scale-105'
                                 >
-                                    🚀 Explore Packages
+                                    Explore Packages
                                 </Button>
                             </div>
                             
@@ -293,16 +293,9 @@ const MainPage = () => {
                             </button>
                             
                             {/* Image Container */}
-                            <div className='relative max-w-7xl max-h-full animate-in zoom-in-95 duration-500 delay-100'>
-                                <Image
-                                    src={SponzorskiPaketi}
-                                    alt='Sponsorship packages and opportunities for DevFest 2025'
-                                    className='w-full h-auto max-h-[90vh] object-contain rounded-lg shadow-2xl'
-                                    priority
-                                />
-                                
-                                {/* Overlay Text */}
-                                <div className='absolute bottom-4 left-4 right-4 bg-black/70 backdrop-blur-sm rounded-lg p-4 text-white animate-in slide-in-from-bottom-4 duration-300 delay-200'>
+                            <div className='relative max-w-7xl max-h-full'>
+                                {/* Overlay Text - Moved above image */}
+                                <div className='mb-4 bg-black/70 backdrop-blur-sm rounded-lg p-4 text-white text-center'>
                                     <h3 className='text-xl font-bold mb-2'>📋 DevFest 2025 Sponsorship Packages</h3>
                                     <p className='text-sm opacity-90'>
                                         Ready to become a sponsor? Contact us at{' '}
@@ -314,6 +307,13 @@ const MainPage = () => {
                                         </a>
                                     </p>
                                 </div>
+                                
+                                <Image
+                                    src={SponzorskiPaketi}
+                                    alt='Sponsorship packages and opportunities for DevFest 2025'
+                                    className='w-full h-auto max-h-[90vh] object-contain rounded-lg shadow-2xl'
+                                    priority
+                                />
                             </div>
                         </div>
                     </div>
