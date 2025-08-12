@@ -1,20 +1,27 @@
+'use client';
 
 import ImageGallery from '@/components/image-gallery';
 import { Button } from '@/components/ui/button';
 import GDGZagrebLogo from '@/public/assets/GDG-Zagreb-logo@3x.png';
 import HeaderImageLarge from '@/public/assets/header-lg@2x.jpg';
 import HeaderImageMedium from '@/public/assets/header-md@2x.png';
+import SponzorskiPaketi from '@/public/assets/sponzorski-paketi.png';
 import GDGKrapinaLogo from '@/public/gdg-krapina-logo.png';
 import GDGOsijekLogo from '@/public/gdg-osijek-logo.svg';
 import SciplyLogo from '@/public/sponsors/SciPly_logo.png';
 import WTMLogo from '@/public/wtm-logo.png';
-import { Calendar, Clock, Coffee, PartyPopper, Table2, Ticket, User2, Users } from 'lucide-react';
+import { Calendar, Clock, Coffee, PartyPopper, Table2, Ticket, User2, Users, X } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 
 const MainPage = () => {
     const isAgendaAvailable = false;
     const isSpeakersAvailable = false;
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const openModal = () => setIsModalOpen(true);
+    const closeModal = () => setIsModalOpen(false);
 
     return (
         <div className='container flex items-center justify-center px-4 mx-auto'>
@@ -192,119 +199,6 @@ const MainPage = () => {
                     </div>
                 </div>
 
-                {/* <div className='p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white'>
-                    <h2 className='text-center text-black mb-8 w-full lg:text-3xl font-bold'>
-                        Sponsors & Partners from DevFest 2024:
-                    </h2>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 place-items-center '>
-                        <Link
-                            href='https://www.thegeekgathering.org/'
-                            target='_blank'
-                        >
-                            <Image
-                                className='rounded'
-                                src={
-                                    '/partners/the-geek-gathering/TGG_logo_green.svg'
-                                }
-                                alt={'The Geek Gathering'}
-                                height={150}
-                                width={150}
-                            />
-                        </Link>
-                        <Link href='https://www.a1.hr/' target='_blank'>
-                            <Image
-                                className='rounded'
-                                src='/sponsors/2024/02--A1-logo.svg'
-                                alt={'A1'}
-                                height={75}
-                                width={75}
-                            />
-                        </Link>
-                        <Link href='https://www.epam.com/' target='_blank'>
-                            <Image
-                                className='rounded'
-                                src={'/sponsors/01--epam-logo.png'}
-                                alt={'EPAM Logo'}
-                                height={100}
-                                width={100}
-                            />
-                        </Link>
-
-                        <Link href='https://wespa.hr/en/' target='_blank'>
-                            <Image
-                                className='rounded'
-                                src={'/sponsors/03--wespa-logo.png'}
-                                alt={'Wespa'}
-                                height={130}
-                                width={130}
-                            />
-                        </Link>
-
-                        <Link href='https://theplayoff.app/' target='_blank'>
-                            <Image
-                                className='rounded'
-                                src={'/partners/playoff/playoff-logo.svg'}
-                                alt={'Playoff'}
-                                height={130}
-                                width={130}
-                            />
-                        </Link>
-                        <Link
-                            href='https://friendlyfireesports.com/'
-                            target='_blank'
-                        >
-                            <Image
-                                className='rounded'
-                                src={
-                                    '/partners/friendly-fire/friendly-fire-logo.svg'
-                                }
-                                alt={'Friendly Fire'}
-                                height={150}
-                                width={150}
-                            />
-                        </Link>
-                        <Link href='https://huddle.tech/' target='_blank'>
-                            <Image
-                                className='rounded'
-                                src={'/sponsors/2024/04--huddle-tech-logo.svg'}
-                                alt={'Huddle'}
-                                height={150}
-                                width={150}
-                            />
-                        </Link>
-                        <Link href='https://arilus.hr/' target='_blank'>
-                            <Image
-                                className='rounded'
-                                src={'/sponsors/08--Arilus-logo.svg'}
-                                alt={'Arilus'}
-                                height={75}
-                                width={75}
-                            />
-                        </Link>
-                        <Link href='https://bazzar.hr/' target='_blank'>
-                            <Image
-                                className='rounded'
-                                src={'/sponsors/2024/bazzar-logo@4x.png'}
-                                alt={'Bazzar'}
-                                height={120}
-                                width={120}
-                            />
-                        </Link>
-                        <Link
-                            href='https://www.uber.com/hr/hr/'
-                            target='_blank'
-                        >
-                            <Image
-                                className='rounded'
-                                src={'/partners/uber/uber_logo.png'}
-                                alt={'Uber'}
-                                height={120}
-                                width={120}
-                            />
-                        </Link>
-                    </div>
-                </div> */}
-
                 <div className='w-full max-w-[1020px] bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-3xl p-8 shadow-xl border border-gray-200 dark:border-gray-700 mt-12'>
                     <div className='text-center space-y-6'>
                         <div className='flex items-center justify-center gap-3 mb-6'>
@@ -318,10 +212,26 @@ const MainPage = () => {
                             </h2>
                         </div>
                         
-                        <div className='max-w-2xl mx-auto space-y-4'>
+                        <div className='max-w-2xl mx-auto space-y-6'>
                             <p className='text-lg md:text-xl text-gray-700 dark:text-gray-300 font-medium'>
                                 Join us for DevFest 2025! We have a variety of sponsorship packages designed to showcase your brand.
                             </p>
+                            
+                            {/* CTA Button */}
+                            <div className='bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-2xl p-6 shadow-lg border border-blue-200 dark:border-blue-700'>
+                                <h3 className='text-xl md:text-2xl font-bold text-gray-800 dark:text-gray-200 mb-4'>
+                                    📋 View Our Sponsorship Packages
+                                </h3>
+                                <p className='text-gray-600 dark:text-gray-400 mb-6'>
+                                    Discover the amazing opportunities available for your brand at DevFest 2025
+                                </p>
+                                <Button 
+                                    onClick={openModal}
+                                    className='w-full max-w-md h-16 rounded-2xl text-xl font-semibold bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white shadow-2xl transform transition-all duration-300 hover:scale-105'
+                                >
+                                    🚀 Explore Packages
+                                </Button>
+                            </div>
                             
                             <div className='bg-gray-50 dark:bg-gray-700/50 rounded-2xl p-6 shadow-lg border border-gray-200 dark:border-gray-600'>
                                 <div className='flex items-center justify-center gap-3'>
@@ -354,6 +264,45 @@ const MainPage = () => {
                         </div>
                     </div>
                 </div>
+
+                {/* Full Screen Modal */}
+                {isModalOpen && (
+                    <div className='fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-sm animate-in fade-in duration-300'>
+                        <div className='relative w-full h-full flex items-center justify-center p-4 animate-in zoom-in-95 duration-300'>
+                            {/* Close Button */}
+                            <button
+                                onClick={closeModal}
+                                className='absolute top-4 right-4 z-10 p-3 bg-white/20 hover:bg-white/30 rounded-full backdrop-blur-sm transition-all duration-200 hover:scale-110 animate-in slide-in-from-top-4 duration-300'
+                            >
+                                <X className='w-8 h-8 text-white' />
+                            </button>
+                            
+                            {/* Image Container */}
+                            <div className='relative max-w-7xl max-h-full animate-in zoom-in-95 duration-500 delay-100'>
+                                <Image
+                                    src={SponzorskiPaketi}
+                                    alt='Sponsorship packages and opportunities for DevFest 2025'
+                                    className='w-full h-auto max-h-[90vh] object-contain rounded-lg shadow-2xl'
+                                    priority
+                                />
+                                
+                                {/* Overlay Text */}
+                                <div className='absolute bottom-4 left-4 right-4 bg-black/70 backdrop-blur-sm rounded-lg p-4 text-white animate-in slide-in-from-bottom-4 duration-300 delay-200'>
+                                    <h3 className='text-xl font-bold mb-2'>📋 DevFest 2025 Sponsorship Packages</h3>
+                                    <p className='text-sm opacity-90'>
+                                        Ready to become a sponsor? Contact us at{' '}
+                                        <a
+                                            href='mailto:zagrebgdg@gmail.com'
+                                            className='text-blue-300 hover:text-blue-200 font-semibold underline'
+                                        >
+                                            zagrebgdg@gmail.com
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )}
 
                 <div className='p-6 max-w-[1020px] rounded-2xl shadow-lg bg-white mt-12'>
                     <div></div>
