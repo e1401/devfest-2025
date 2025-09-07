@@ -1,7 +1,7 @@
 'use client';
 
 import SpeakerCard from '@/components/speaker-card';
-import speakers from '@/json/speakers.json';
+import speakers from '@/json/archive/2024/speakers.json';
 import Link from 'next/link';
 const Speakers = () => {
     return (
@@ -15,23 +15,23 @@ const Speakers = () => {
                     <span className='underline'>here</span>
                 </Link>
             </h2>
-            <div className='mt-3 mb-6'></div>
-
-            {speakers.speakers
-                .sort((a, b) =>
-                    a.name.split(' ')[1].localeCompare(b.name.split(' ')[1])
-                )
-                .map((session) => {
-                    return (
-                        <SpeakerCard
-                            session={session}
-                            key={
-                                session.name.split(' ')[1] +
-                                session.name.split(' ')[0]
-                            }
-                        />
-                    );
-                })}
+            <div className='flex flex-col gap-3 w-full max-w-4xl'>
+                {speakers.speakers
+                    .sort((a, b) =>
+                        a.name.split(' ')[1].localeCompare(b.name.split(' ')[1])
+                    )
+                    .map((session) => {
+                        return (
+                            <SpeakerCard
+                                session={session}
+                                key={
+                                    session.name.split(' ')[1] +
+                                    session.name.split(' ')[0]
+                                }
+                            />
+                        );
+                    })}
+            </div>
         </div>
     );
 };
