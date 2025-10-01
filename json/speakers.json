@@ -27,7 +27,7 @@
          "name": "Scraping 8 million daily prices for fun",
          "info": "Senko runs cijene.dev, a free API service that collects (crawls) daily prices from Croatian retail chains. Join him in exploring messy data, file formats in constant flux, overengineered code and a little bit of AI magic.",
          "imgSrc": "/speaker-photos/2025/rasic-senko.jpeg",
-         "isFeatured": true,
+         "isFeatured": false,
          "isPublishable": true
         },
         {
@@ -57,6 +57,16 @@
          "name": "Building a Weather Agent on Android with Koog",
          "info": "In this session, you will learn the basics of Koog, the new open-source Kotlin framework for building AI agents on the JVM. I'll guide you through building a small Android app that uses Koog to ask a language model for weather forecasts and then displays the results. We'll cover:\n\n• How to add Koog to an Android project setup\n• How to write a simple single-run agent that talks to a weather API\n• How to connect the agent to an LLM (like OpenAI or Google Gemini)\n• How to show the forecast in a basic Compose UI\n\nNo prior experience with Koog is needed. By the end you will have a simple working Android app and code that shows how to build your own agents in Kotlin.",
          "imgSrc": "/speaker-photos/2025/djermanovic-dean.jpg",
+         "isFeatured": true,
+         "isPublishable": true
+        },
+        {
+         "type": "Talk",
+         "speakerName": "Eddy Wolf",
+         "speakerInfo": "Student at University of practical studies Split",
+         "name": "Containerized Systems and Applications",
+         "info": "A presentation diving in the current state of virtualized and containerized applications/systems, how they can be utilized for cross-platform implementation of applications, and the security and usability concerns they bring with them.",
+         "imgSrc": "/speaker-photos/2025/wolf-eddy.jpeg",
          "isFeatured": true,
          "isPublishable": true
         }
